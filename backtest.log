@@ -1,0 +1,715 @@
+2025-07-05 16:40:04,454 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 16:40:04,455 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 16:41:48,222 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 16:41:48,223 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 16:42:20,204 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 16:42:20,205 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 16:46:34,855 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 16:46:34,856 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 16:52:46,846 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 16:52:46,847 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 16:57:33,768 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 16:57:33,769 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 16:58:40,153 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 16:58:40,153 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 16:59:02,465 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 16:59:02,466 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 16:59:03,278 - quant_trading - INFO - Running backtest...
+2025-07-05 17:04:25,514 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 17:04:25,515 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 17:09:12,086 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 17:09:12,086 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 17:09:13,999 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-05 17:09:13,999 - quant_trading - INFO - Running backtest...
+2025-07-05 17:09:13,999 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:09:13,999 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:09:14,000 - quant_trading.backtest_engine - INFO - 回测日期范围: 2020-01-01 00:00:00 至 2023-12-31 00:00:00
+2025-07-05 17:09:14,000 - quant_trading.backtest_engine - INFO - 回测日期范围: 2020-01-01 00:00:00 至 2023-12-31 00:00:00
+2025-07-05 17:09:14,001 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 0
+2025-07-05 17:09:14,001 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 0
+2025-07-05 17:09:14,001 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 0
+2025-07-05 17:09:14,001 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 0
+2025-07-05 17:09:14,001 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-05 17:09:14,001 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-05 17:10:18,063 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 17:10:18,063 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 17:10:19,182 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-05 17:10:19,182 - quant_trading - INFO - Running backtest...
+2025-07-05 17:10:19,182 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:10:19,182 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:10:19,183 - quant_trading.backtest_engine - INFO - 回测日期范围: 2020-01-01 00:00:00 至 2023-12-31 00:00:00
+2025-07-05 17:10:19,183 - quant_trading.backtest_engine - INFO - 回测日期范围: 2020-01-01 00:00:00 至 2023-12-31 00:00:00
+2025-07-05 17:10:19,183 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 0
+2025-07-05 17:10:19,183 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 0
+2025-07-05 17:10:19,183 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 0
+2025-07-05 17:10:19,183 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 0
+2025-07-05 17:10:19,183 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-05 17:10:19,183 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-05 17:10:19,185 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-05 17:10:19,185 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-05 17:10:19,185 - quant_trading.macd_strategy - INFO - 发现 0 个买入信号
+2025-07-05 17:10:19,185 - quant_trading.macd_strategy - INFO - 发现 0 个买入信号
+2025-07-05 17:10:19,186 - quant_trading.macd_strategy - INFO - 发现 0 个卖出信号
+2025-07-05 17:10:19,186 - quant_trading.macd_strategy - INFO - 发现 0 个卖出信号
+2025-07-05 17:10:19,186 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-05 17:10:19,186 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-05 17:10:19,186 - quant_trading.backtest_engine - INFO - 初始资金: 10000.00 USDT, 手续费率: 0.10%
+2025-07-05 17:10:19,186 - quant_trading.backtest_engine - INFO - 初始资金: 10000.00 USDT, 手续费率: 0.10%
+2025-07-05 17:13:13,081 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 17:13:13,082 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 17:13:14,075 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-05 17:13:14,075 - quant_trading - INFO - Running backtest...
+2025-07-05 17:13:14,076 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:13:14,076 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:13:14,077 - quant_trading.backtest_engine - INFO - 回测日期范围: 2020-01-01 00:00:00 至 2023-12-31 00:00:00
+2025-07-05 17:13:14,077 - quant_trading.backtest_engine - INFO - 回测日期范围: 2020-01-01 00:00:00 至 2023-12-31 00:00:00
+2025-07-05 17:13:14,077 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 0
+2025-07-05 17:13:14,077 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 0
+2025-07-05 17:13:14,077 - quant_trading.backtest_engine - ERROR - 筛选后数据为空，无法回测
+2025-07-05 17:13:14,077 - quant_trading.backtest_engine - ERROR - 筛选后数据为空，无法回测
+2025-07-05 17:13:14,077 - quant_trading - INFO - Analyzing performance...
+2025-07-05 17:13:14,077 - quant_trading - INFO - Analyzing performance...
+2025-07-05 17:14:09,309 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 17:14:09,310 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 17:14:09,642 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-05 17:14:09,642 - quant_trading - INFO - Running backtest...
+2025-07-05 17:14:09,642 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:14:09,642 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:14:09,643 - quant_trading.backtest_engine - INFO - 回测日期范围: 2020-01-01 00:00:00 至 2023-12-31 00:00:00
+2025-07-05 17:14:09,643 - quant_trading.backtest_engine - INFO - 回测日期范围: 2020-01-01 00:00:00 至 2023-12-31 00:00:00
+2025-07-05 17:14:09,643 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 0
+2025-07-05 17:14:09,643 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 0
+2025-07-05 17:14:09,643 - quant_trading.backtest_engine - ERROR - 筛选后数据为空，无法回测
+2025-07-05 17:14:09,643 - quant_trading.backtest_engine - ERROR - 筛选后数据为空，无法回测
+2025-07-05 17:14:09,643 - quant_trading - INFO - Analyzing performance...
+2025-07-05 17:14:09,643 - quant_trading - INFO - Analyzing performance...
+2025-07-05 17:17:06,534 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 17:17:06,534 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 17:17:06,826 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-05 17:17:06,826 - quant_trading - INFO - Running backtest...
+2025-07-05 17:17:06,826 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:17:06,826 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:17:06,827 - quant_trading.backtest_engine - INFO - 回测日期范围: 2020-01-01 00:00:00 至 2023-12-31 00:00:00
+2025-07-05 17:17:06,827 - quant_trading.backtest_engine - INFO - 回测日期范围: 2020-01-01 00:00:00 至 2023-12-31 00:00:00
+2025-07-05 17:17:06,828 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 0
+2025-07-05 17:17:06,828 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 0
+2025-07-05 17:17:06,828 - quant_trading.backtest_engine - ERROR - 筛选后数据为空，无法回测
+2025-07-05 17:17:06,828 - quant_trading.backtest_engine - ERROR - 筛选后数据为空，无法回测
+2025-07-05 17:17:06,828 - quant_trading - INFO - Analyzing performance...
+2025-07-05 17:17:06,828 - quant_trading - INFO - Analyzing performance...
+2025-07-05 17:29:02,799 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 17:29:02,800 - quant_trading - INFO - 配置文件加载成功
+2025-07-05 17:29:02,800 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 17:29:04,257 - quant_trading - ERROR - 数据准备失败: 数据文件不存在: /Users/heyuanze/trading-btc/src/../data/raw/btc_usdt_4h.csv
+2025-07-05 17:29:36,865 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 17:29:36,866 - quant_trading - INFO - 配置文件加载成功
+2025-07-05 17:29:36,866 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 17:29:38,460 - quant_trading - INFO - 数据准备完成。行数: 1000
+2025-07-05 17:29:38,460 - quant_trading - ERROR - 数据缺少必需列: ['open', 'high', 'low', 'close']
+2025-07-05 17:30:14,817 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 17:30:14,818 - quant_trading - INFO - 配置文件加载成功
+2025-07-05 17:30:14,818 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 17:30:16,151 - quant_trading - INFO - 数据准备完成。行数: 1000
+2025-07-05 17:30:16,151 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-05 17:30:16,152 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 1000
+2025-07-05 17:30:16,152 - quant_trading - INFO - 策略初始化完成
+2025-07-05 17:30:16,152 - quant_trading - INFO - Running backtest...
+2025-07-05 17:30:16,152 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:30:16,152 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:30:16,153 - quant_trading.backtest_engine - INFO - 回测日期范围: 2020-01-01 00:00:00 至 2023-12-31 00:00:00
+2025-07-05 17:30:16,153 - quant_trading.backtest_engine - INFO - 回测日期范围: 2020-01-01 00:00:00 至 2023-12-31 00:00:00
+2025-07-05 17:30:16,154 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 0
+2025-07-05 17:30:16,154 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 0
+2025-07-05 17:30:16,154 - quant_trading.backtest_engine - ERROR - 筛选后数据为空，无法回测
+2025-07-05 17:30:16,154 - quant_trading.backtest_engine - ERROR - 筛选后数据为空，无法回测
+2025-07-05 17:30:16,154 - quant_trading - WARNING - 回测结果为空
+2025-07-05 17:30:16,154 - quant_trading - WARNING - 回测结果为空
+2025-07-05 17:30:16,154 - quant_trading - INFO - Analyzing performance...
+2025-07-05 17:30:16,154 - quant_trading - INFO - Analyzing performance...
+2025-07-05 17:30:16,154 - quant_trading.performance - WARNING - 回测数据为空
+2025-07-05 17:30:16,154 - quant_trading.performance - WARNING - 回测数据为空
+2025-07-05 17:30:16,154 - quant_trading.performance - ERROR - 无法计算收益率: 数据无效
+2025-07-05 17:30:16,154 - quant_trading.performance - ERROR - 无法计算收益率: 数据无效
+2025-07-05 17:30:16,155 - quant_trading.performance - ERROR - 无法绘图: 回测数据为空
+2025-07-05 17:30:16,155 - quant_trading.performance - ERROR - 无法绘图: 回测数据为空
+2025-07-05 17:30:16,155 - quant_trading - INFO - Backtest completed. Results saved to /Users/heyuanze/trading-btc/src/../results/backtest_results.csv
+2025-07-05 17:30:16,155 - quant_trading - INFO - Backtest completed. Results saved to /Users/heyuanze/trading-btc/src/../results/backtest_results.csv
+2025-07-05 17:31:40,107 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 17:31:40,107 - quant_trading - INFO - 配置文件加载成功
+2025-07-05 17:31:40,107 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 17:31:41,830 - quant_trading - INFO - 数据准备完成。行数: 1000
+2025-07-05 17:31:41,830 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-05 17:31:41,830 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 1000
+2025-07-05 17:31:41,830 - quant_trading - INFO - 策略初始化完成
+2025-07-05 17:31:41,830 - quant_trading - INFO - Running backtest...
+2025-07-05 17:31:41,830 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:31:41,830 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:31:41,831 - quant_trading.backtest_engine - INFO - 回测日期范围: 2025-01-01 00:00:00 至 2025-12-31 00:00:00
+2025-07-05 17:31:41,831 - quant_trading.backtest_engine - INFO - 回测日期范围: 2025-01-01 00:00:00 至 2025-12-31 00:00:00
+2025-07-05 17:31:41,831 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 1000
+2025-07-05 17:31:41,831 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 1000
+2025-07-05 17:31:41,832 - quant_trading.backtest_engine - ERROR - 回测过程中发生错误: 数据缺少必需列: ['open', 'high', 'low', 'close']
+Traceback (most recent call last):
+  File "/Users/heyuanze/trading-btc/src/backtesting/backtest_engine.py", line 55, in run_backtest
+    raise ValueError(f"数据缺少必需列: {missing_columns}")
+ValueError: 数据缺少必需列: ['open', 'high', 'low', 'close']
+2025-07-05 17:31:41,832 - quant_trading.backtest_engine - ERROR - 回测过程中发生错误: 数据缺少必需列: ['open', 'high', 'low', 'close']
+Traceback (most recent call last):
+  File "/Users/heyuanze/trading-btc/src/backtesting/backtest_engine.py", line 55, in run_backtest
+    raise ValueError(f"数据缺少必需列: {missing_columns}")
+ValueError: 数据缺少必需列: ['open', 'high', 'low', 'close']
+2025-07-05 17:31:41,833 - quant_trading - WARNING - 回测结果为空
+2025-07-05 17:31:41,833 - quant_trading - WARNING - 回测结果为空
+2025-07-05 17:31:41,833 - quant_trading - INFO - Analyzing performance...
+2025-07-05 17:31:41,833 - quant_trading - INFO - Analyzing performance...
+2025-07-05 17:31:41,833 - quant_trading.performance - WARNING - 回测数据为空
+2025-07-05 17:31:41,833 - quant_trading.performance - WARNING - 回测数据为空
+2025-07-05 17:31:41,833 - quant_trading.performance - ERROR - 无法计算收益率: 数据无效
+2025-07-05 17:31:41,833 - quant_trading.performance - ERROR - 无法计算收益率: 数据无效
+2025-07-05 17:31:41,833 - quant_trading.performance - ERROR - 无法绘图: 回测数据为空
+2025-07-05 17:31:41,833 - quant_trading.performance - ERROR - 无法绘图: 回测数据为空
+2025-07-05 17:31:41,833 - quant_trading - INFO - Backtest completed. Results saved to /Users/heyuanze/trading-btc/src/../results/backtest_results.csv
+2025-07-05 17:31:41,833 - quant_trading - INFO - Backtest completed. Results saved to /Users/heyuanze/trading-btc/src/../results/backtest_results.csv
+2025-07-05 17:32:43,275 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 17:32:43,275 - quant_trading - INFO - 配置文件加载成功
+2025-07-05 17:32:43,276 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 17:32:45,107 - quant_trading - INFO - 数据准备完成。行数: 1000
+2025-07-05 17:32:45,108 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-05 17:32:45,108 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 1000
+2025-07-05 17:32:45,108 - quant_trading - INFO - 策略初始化完成
+2025-07-05 17:32:45,108 - quant_trading - INFO - Running backtest...
+2025-07-05 17:32:45,108 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:32:45,108 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:32:45,109 - quant_trading.backtest_engine - INFO - 回测日期范围: 2025-01-01 00:00:00 至 2025-12-31 00:00:00
+2025-07-05 17:32:45,109 - quant_trading.backtest_engine - INFO - 回测日期范围: 2025-01-01 00:00:00 至 2025-12-31 00:00:00
+2025-07-05 17:32:45,109 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 1000
+2025-07-05 17:32:45,109 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 1000
+2025-07-05 17:32:45,109 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 1000
+2025-07-05 17:32:45,109 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 1000
+2025-07-05 17:32:45,109 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-05 17:32:45,109 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-05 17:32:45,112 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-05 17:32:45,112 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-05 17:32:45,113 - quant_trading.macd_strategy - INFO - 发现 39 个买入信号
+2025-07-05 17:32:45,113 - quant_trading.macd_strategy - INFO - 发现 39 个买入信号
+2025-07-05 17:32:45,113 - quant_trading.macd_strategy - INFO - 发现 39 个卖出信号
+2025-07-05 17:32:45,113 - quant_trading.macd_strategy - INFO - 发现 39 个卖出信号
+2025-07-05 17:32:45,113 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-05 17:32:45,113 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-05 17:32:45,114 - quant_trading.backtest_engine - INFO - 初始资金: 10000.00 USDT, 手续费率: 0.10%
+2025-07-05 17:32:45,114 - quant_trading.backtest_engine - INFO - 初始资金: 10000.00 USDT, 手续费率: 0.10%
+2025-07-05 17:32:45,115 - quant_trading.backtest_engine - ERROR - 回测过程中发生错误: 'close'
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'close'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/heyuanze/trading-btc/src/backtesting/backtest_engine.py", line 86, in run_backtest
+    current_price = row['close']
+                    ~~~^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/series.py", line 1130, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/series.py", line 1246, in _get_value
+    loc = self.index.get_loc(label)
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'close'
+2025-07-05 17:32:45,115 - quant_trading.backtest_engine - ERROR - 回测过程中发生错误: 'close'
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'close'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/heyuanze/trading-btc/src/backtesting/backtest_engine.py", line 86, in run_backtest
+    current_price = row['close']
+                    ~~~^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/series.py", line 1130, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/series.py", line 1246, in _get_value
+    loc = self.index.get_loc(label)
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'close'
+2025-07-05 17:32:45,119 - quant_trading - WARNING - 回测结果为空
+2025-07-05 17:32:45,119 - quant_trading - WARNING - 回测结果为空
+2025-07-05 17:32:45,119 - quant_trading - INFO - Analyzing performance...
+2025-07-05 17:32:45,119 - quant_trading - INFO - Analyzing performance...
+2025-07-05 17:32:45,119 - quant_trading.performance - WARNING - 回测数据为空
+2025-07-05 17:32:45,119 - quant_trading.performance - WARNING - 回测数据为空
+2025-07-05 17:32:45,119 - quant_trading.performance - ERROR - 无法计算收益率: 数据无效
+2025-07-05 17:32:45,119 - quant_trading.performance - ERROR - 无法计算收益率: 数据无效
+2025-07-05 17:32:45,119 - quant_trading.performance - ERROR - 无法绘图: 回测数据为空
+2025-07-05 17:32:45,119 - quant_trading.performance - ERROR - 无法绘图: 回测数据为空
+2025-07-05 17:32:45,120 - quant_trading - INFO - Backtest completed. Results saved to /Users/heyuanze/trading-btc/src/../results/backtest_results.csv
+2025-07-05 17:32:45,120 - quant_trading - INFO - Backtest completed. Results saved to /Users/heyuanze/trading-btc/src/../results/backtest_results.csv
+2025-07-05 17:37:36,758 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 17:37:36,759 - quant_trading - INFO - 配置文件加载成功
+2025-07-05 17:37:36,759 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 17:37:37,074 - quant_trading - INFO - 数据准备完成。行数: 1000
+2025-07-05 17:37:37,074 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-05 17:37:37,074 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 1000
+2025-07-05 17:37:37,074 - quant_trading - INFO - 策略初始化完成
+2025-07-05 17:37:37,074 - quant_trading - INFO - Running backtest...
+2025-07-05 17:37:37,074 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:37:37,074 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:37:37,075 - quant_trading.backtest_engine - INFO - 回测日期范围: 2025-01-01 00:00:00 至 2025-12-31 00:00:00
+2025-07-05 17:37:37,075 - quant_trading.backtest_engine - INFO - 回测日期范围: 2025-01-01 00:00:00 至 2025-12-31 00:00:00
+2025-07-05 17:37:37,076 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 1000
+2025-07-05 17:37:37,076 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 1000
+2025-07-05 17:37:37,076 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 1000
+2025-07-05 17:37:37,076 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 1000
+2025-07-05 17:37:37,076 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-05 17:37:37,076 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-05 17:37:37,077 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-05 17:37:37,077 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-05 17:37:37,081 - quant_trading.macd_strategy - INFO - 发现 39 个买入信号
+2025-07-05 17:37:37,081 - quant_trading.macd_strategy - INFO - 发现 39 个买入信号
+2025-07-05 17:37:37,081 - quant_trading.macd_strategy - INFO - 发现 39 个卖出信号
+2025-07-05 17:37:37,081 - quant_trading.macd_strategy - INFO - 发现 39 个卖出信号
+2025-07-05 17:37:37,082 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-05 17:37:37,082 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-05 17:37:37,082 - quant_trading.backtest_engine - INFO - 初始资金: 10000.00 USDT, 手续费率: 0.10%
+2025-07-05 17:37:37,082 - quant_trading.backtest_engine - INFO - 初始资金: 10000.00 USDT, 手续费率: 0.10%
+2025-07-05 17:37:37,084 - quant_trading.backtest_engine - ERROR - 回测过程中发生错误: 'close'
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'close'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/heyuanze/trading-btc/src/backtesting/backtest_engine.py", line 86, in run_backtest
+    current_price = row['close']
+                    ~~~^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/series.py", line 1130, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/series.py", line 1246, in _get_value
+    loc = self.index.get_loc(label)
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'close'
+2025-07-05 17:37:37,084 - quant_trading.backtest_engine - ERROR - 回测过程中发生错误: 'close'
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'close'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/heyuanze/trading-btc/src/backtesting/backtest_engine.py", line 86, in run_backtest
+    current_price = row['close']
+                    ~~~^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/series.py", line 1130, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/series.py", line 1246, in _get_value
+    loc = self.index.get_loc(label)
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'close'
+2025-07-05 17:37:37,090 - quant_trading - WARNING - 回测结果为空
+2025-07-05 17:37:37,090 - quant_trading - WARNING - 回测结果为空
+2025-07-05 17:37:37,090 - quant_trading - INFO - Analyzing performance...
+2025-07-05 17:37:37,090 - quant_trading - INFO - Analyzing performance...
+2025-07-05 17:37:37,090 - quant_trading.performance - WARNING - 回测数据为空
+2025-07-05 17:37:37,090 - quant_trading.performance - WARNING - 回测数据为空
+2025-07-05 17:37:37,090 - quant_trading.performance - ERROR - 无法计算收益率: 数据无效
+2025-07-05 17:37:37,090 - quant_trading.performance - ERROR - 无法计算收益率: 数据无效
+2025-07-05 17:37:37,091 - quant_trading.performance - ERROR - 无法绘图: 回测数据为空
+2025-07-05 17:37:37,091 - quant_trading.performance - ERROR - 无法绘图: 回测数据为空
+2025-07-05 17:37:37,091 - quant_trading - INFO - Backtest completed. Results saved to /Users/heyuanze/trading-btc/src/../results/backtest_results.csv
+2025-07-05 17:37:37,091 - quant_trading - INFO - Backtest completed. Results saved to /Users/heyuanze/trading-btc/src/../results/backtest_results.csv
+2025-07-05 17:38:44,699 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 17:38:44,699 - quant_trading - INFO - 配置文件加载成功
+2025-07-05 17:38:44,699 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 17:38:45,013 - quant_trading - INFO - 数据准备完成。行数: 1000
+2025-07-05 17:38:45,013 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-05 17:38:45,013 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 1000
+2025-07-05 17:38:45,013 - quant_trading - INFO - 策略初始化完成
+2025-07-05 17:38:45,013 - quant_trading - INFO - Running backtest...
+2025-07-05 17:38:45,013 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:38:45,013 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:38:45,014 - quant_trading.backtest_engine - INFO - 回测日期范围: 2025-01-01 00:00:00 至 2025-12-31 00:00:00
+2025-07-05 17:38:45,014 - quant_trading.backtest_engine - INFO - 回测日期范围: 2025-01-01 00:00:00 至 2025-12-31 00:00:00
+2025-07-05 17:38:45,014 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 1000
+2025-07-05 17:38:45,014 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 1000
+2025-07-05 17:38:45,014 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 1000
+2025-07-05 17:38:45,014 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 1000
+2025-07-05 17:38:45,014 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-05 17:38:45,014 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-05 17:38:45,015 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-05 17:38:45,015 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-05 17:38:45,016 - quant_trading.macd_strategy - INFO - 发现 39 个买入信号
+2025-07-05 17:38:45,016 - quant_trading.macd_strategy - INFO - 发现 39 个买入信号
+2025-07-05 17:38:45,016 - quant_trading.macd_strategy - INFO - 发现 39 个卖出信号
+2025-07-05 17:38:45,016 - quant_trading.macd_strategy - INFO - 发现 39 个卖出信号
+2025-07-05 17:38:45,016 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-05 17:38:45,016 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-05 17:38:45,017 - quant_trading.backtest_engine - INFO - 初始资金: 10000.00 USDT, 手续费率: 0.10%
+2025-07-05 17:38:45,017 - quant_trading.backtest_engine - INFO - 初始资金: 10000.00 USDT, 手续费率: 0.10%
+2025-07-05 17:38:45,019 - quant_trading.backtest_engine - ERROR - 回测过程中发生错误: 'trade_amount'
+Traceback (most recent call last):
+  File "/Users/heyuanze/trading-btc/src/backtesting/backtest_engine.py", line 91, in run_backtest
+    trade_amount = float(self.config['strategy']['trade_amount'])
+                         ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'trade_amount'
+2025-07-05 17:38:45,019 - quant_trading.backtest_engine - ERROR - 回测过程中发生错误: 'trade_amount'
+Traceback (most recent call last):
+  File "/Users/heyuanze/trading-btc/src/backtesting/backtest_engine.py", line 91, in run_backtest
+    trade_amount = float(self.config['strategy']['trade_amount'])
+                         ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'trade_amount'
+2025-07-05 17:38:45,019 - quant_trading - WARNING - 回测结果为空
+2025-07-05 17:38:45,019 - quant_trading - WARNING - 回测结果为空
+2025-07-05 17:38:45,020 - quant_trading - INFO - Analyzing performance...
+2025-07-05 17:38:45,020 - quant_trading - INFO - Analyzing performance...
+2025-07-05 17:38:45,020 - quant_trading.performance - WARNING - 回测数据为空
+2025-07-05 17:38:45,020 - quant_trading.performance - WARNING - 回测数据为空
+2025-07-05 17:38:45,020 - quant_trading.performance - ERROR - 无法计算收益率: 数据无效
+2025-07-05 17:38:45,020 - quant_trading.performance - ERROR - 无法计算收益率: 数据无效
+2025-07-05 17:38:45,021 - quant_trading.performance - ERROR - 无法绘图: 回测数据为空
+2025-07-05 17:38:45,021 - quant_trading.performance - ERROR - 无法绘图: 回测数据为空
+2025-07-05 17:38:45,021 - quant_trading - INFO - Backtest completed. Results saved to /Users/heyuanze/trading-btc/src/../results/backtest_results.csv
+2025-07-05 17:38:45,021 - quant_trading - INFO - Backtest completed. Results saved to /Users/heyuanze/trading-btc/src/../results/backtest_results.csv
+2025-07-05 17:50:10,126 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 17:50:10,127 - quant_trading - INFO - 配置文件加载成功
+2025-07-05 17:50:10,127 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 17:50:10,971 - quant_trading - ERROR - 数据准备失败: 数据文件不存在: /Users/heyuanze/trading-btc/src/../data/raw/btc_usdt_4h.csv
+2025-07-05 17:50:46,516 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 17:50:46,517 - quant_trading - INFO - 配置文件加载成功
+2025-07-05 17:50:46,517 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 17:50:47,043 - quant_trading - INFO - 数据准备完成。行数: 1000
+2025-07-05 17:50:47,044 - quant_trading - ERROR - 数据缺少必需列: ['open', 'high', 'low', 'close']
+2025-07-05 17:51:28,051 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 17:51:28,052 - quant_trading - INFO - 配置文件加载成功
+2025-07-05 17:51:28,052 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 17:51:28,796 - quant_trading - INFO - 数据准备完成。行数: 1000
+2025-07-05 17:51:28,797 - quant_trading - INFO - 数据日期范围: 2025-01-19 20:00:00 至 2025-07-05 08:00:00
+2025-07-05 17:51:28,797 - quant_trading - INFO - 策略参数: {'fast_period': 12, 'slow_period': 26, 'signal_period': 9, 'trade_amount': 0.1}
+2025-07-05 17:51:28,797 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-05 17:51:28,797 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 1000
+2025-07-05 17:51:28,797 - quant_trading - INFO - 策略初始化完成
+2025-07-05 17:51:28,797 - quant_trading - INFO - Running backtest...
+2025-07-05 17:51:28,797 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:51:28,797 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:51:28,798 - quant_trading.backtest_engine - INFO - 回测日期范围: 2025-01-01 00:00:00 至 2025-12-31 00:00:00
+2025-07-05 17:51:28,798 - quant_trading.backtest_engine - INFO - 回测日期范围: 2025-01-01 00:00:00 至 2025-12-31 00:00:00
+2025-07-05 17:51:28,799 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 1000
+2025-07-05 17:51:28,799 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 1000
+2025-07-05 17:51:28,799 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 1000
+2025-07-05 17:51:28,799 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 1000
+2025-07-05 17:51:28,799 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-05 17:51:28,799 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-05 17:51:28,801 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-05 17:51:28,801 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-05 17:51:28,802 - quant_trading.macd_strategy - INFO - 发现 39 个买入信号
+2025-07-05 17:51:28,802 - quant_trading.macd_strategy - INFO - 发现 39 个买入信号
+2025-07-05 17:51:28,803 - quant_trading.macd_strategy - INFO - 发现 39 个卖出信号
+2025-07-05 17:51:28,803 - quant_trading.macd_strategy - INFO - 发现 39 个卖出信号
+2025-07-05 17:51:28,803 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-05 17:51:28,803 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-05 17:51:28,803 - quant_trading.backtest_engine - INFO - 初始资金: 10000.00 USDT, 手续费率: 0.10%, 交易量: 0.1 BTC
+2025-07-05 17:51:28,803 - quant_trading.backtest_engine - INFO - 初始资金: 10000.00 USDT, 手续费率: 0.10%, 交易量: 0.1 BTC
+2025-07-05 17:51:28,804 - quant_trading.backtest_engine - ERROR - 回测过程中发生错误: 'close'
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'close'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/heyuanze/trading-btc/src/backtesting/backtest_engine.py", line 94, in run_backtest
+    current_price = row['close']
+                    ~~~^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/series.py", line 1130, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/series.py", line 1246, in _get_value
+    loc = self.index.get_loc(label)
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'close'
+2025-07-05 17:51:28,804 - quant_trading.backtest_engine - ERROR - 回测过程中发生错误: 'close'
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'close'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/heyuanze/trading-btc/src/backtesting/backtest_engine.py", line 94, in run_backtest
+    current_price = row['close']
+                    ~~~^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/series.py", line 1130, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/series.py", line 1246, in _get_value
+    loc = self.index.get_loc(label)
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'close'
+2025-07-05 17:51:28,808 - quant_trading - WARNING - 回测结果为空
+2025-07-05 17:51:28,808 - quant_trading - WARNING - 回测结果为空
+2025-07-05 17:51:28,808 - quant_trading - INFO - Analyzing performance...
+2025-07-05 17:51:28,808 - quant_trading - INFO - Analyzing performance...
+2025-07-05 17:51:28,808 - quant_trading.performance - WARNING - 回测数据为空
+2025-07-05 17:51:28,808 - quant_trading.performance - WARNING - 回测数据为空
+2025-07-05 17:51:28,808 - quant_trading.performance - ERROR - 无法计算收益率: 数据无效
+2025-07-05 17:51:28,808 - quant_trading.performance - ERROR - 无法计算收益率: 数据无效
+2025-07-05 17:51:28,809 - quant_trading - INFO - 回测结果保存至: /Users/heyuanze/trading-btc/src/../results/backtest_results.csv
+2025-07-05 17:51:28,809 - quant_trading - INFO - 回测结果保存至: /Users/heyuanze/trading-btc/src/../results/backtest_results.csv
+2025-07-05 17:51:28,809 - quant_trading.performance - ERROR - 无法绘图: 回测数据为空
+2025-07-05 17:51:28,809 - quant_trading.performance - ERROR - 无法绘图: 回测数据为空
+2025-07-05 17:51:28,809 - quant_trading - INFO - 回测图表保存至: /Users/heyuanze/trading-btc/src/../results/backtest_plot.png
+2025-07-05 17:51:28,809 - quant_trading - INFO - 回测图表保存至: /Users/heyuanze/trading-btc/src/../results/backtest_plot.png
+2025-07-05 17:52:08,170 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 17:52:08,170 - quant_trading - INFO - 配置文件加载成功
+2025-07-05 17:52:08,170 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 17:52:08,691 - quant_trading - INFO - 数据准备完成。行数: 1000
+2025-07-05 17:52:08,692 - quant_trading - INFO - 数据日期范围: 2025-01-19 20:00:00 至 2025-07-05 08:00:00
+2025-07-05 17:52:08,692 - quant_trading - INFO - 策略参数: {'fast_period': 12, 'slow_period': 26, 'signal_period': 9, 'trade_amount': 0.1}
+2025-07-05 17:52:08,692 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-05 17:52:08,692 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 1000
+2025-07-05 17:52:08,692 - quant_trading - INFO - 策略初始化完成
+2025-07-05 17:52:08,692 - quant_trading - INFO - Running backtest...
+2025-07-05 17:52:08,692 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:52:08,692 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:52:08,693 - quant_trading.backtest_engine - INFO - 回测日期范围: 2025-01-01 00:00:00 至 2025-12-31 00:00:00
+2025-07-05 17:52:08,693 - quant_trading.backtest_engine - INFO - 回测日期范围: 2025-01-01 00:00:00 至 2025-12-31 00:00:00
+2025-07-05 17:52:08,693 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 1000
+2025-07-05 17:52:08,693 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 1000
+2025-07-05 17:52:08,693 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 1000
+2025-07-05 17:52:08,693 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 1000
+2025-07-05 17:52:08,693 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-05 17:52:08,693 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-05 17:52:08,694 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-05 17:52:08,694 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-05 17:52:08,695 - quant_trading.macd_strategy - INFO - 发现 39 个买入信号
+2025-07-05 17:52:08,695 - quant_trading.macd_strategy - INFO - 发现 39 个买入信号
+2025-07-05 17:52:08,695 - quant_trading.macd_strategy - INFO - 发现 39 个卖出信号
+2025-07-05 17:52:08,695 - quant_trading.macd_strategy - INFO - 发现 39 个卖出信号
+2025-07-05 17:52:08,695 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-05 17:52:08,695 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-05 17:52:08,695 - quant_trading.backtest_engine - INFO - 初始资金: 10000.00 USDT, 手续费率: 0.10%, 交易量: 0.1 BTC
+2025-07-05 17:52:08,695 - quant_trading.backtest_engine - INFO - 初始资金: 10000.00 USDT, 手续费率: 0.10%, 交易量: 0.1 BTC
+2025-07-05 17:52:08,702 - quant_trading.backtest_engine - DEBUG - 2025-02-06 04:00:00 - 买入 0.100000 BTC @ 98195.61, 成本: 9829.38
+2025-07-05 17:52:08,702 - quant_trading.backtest_engine - DEBUG - 2025-02-06 04:00:00 - 买入 0.100000 BTC @ 98195.61, 成本: 9829.38
+2025-07-05 17:52:08,703 - quant_trading.backtest_engine - DEBUG - 2025-02-06 16:00:00 - 卖出 0.100000 BTC @ 95983.00, 收入: 9588.70
+2025-07-05 17:52:08,703 - quant_trading.backtest_engine - DEBUG - 2025-02-06 16:00:00 - 卖出 0.100000 BTC @ 95983.00, 收入: 9588.70
+2025-07-05 17:52:08,703 - quant_trading.backtest_engine - DEBUG - 2025-02-07 00:00:00 - 买入 0.100000 BTC @ 97444.04, 成本: 9754.15
+2025-07-05 17:52:08,703 - quant_trading.backtest_engine - DEBUG - 2025-02-07 00:00:00 - 买入 0.100000 BTC @ 97444.04, 成本: 9754.15
+2025-07-05 17:52:08,703 - quant_trading.backtest_engine - DEBUG - 2025-02-08 08:00:00 - 卖出 0.100000 BTC @ 96120.00, 收入: 9602.39
+2025-07-05 17:52:08,703 - quant_trading.backtest_engine - DEBUG - 2025-02-08 08:00:00 - 卖出 0.100000 BTC @ 96120.00, 收入: 9602.39
+2025-07-05 17:52:08,708 - quant_trading.backtest_engine - DEBUG - 2025-02-28 16:00:00 - 买入 0.100000 BTC @ 84449.99, 成本: 8453.44
+2025-07-05 17:52:08,708 - quant_trading.backtest_engine - DEBUG - 2025-02-28 16:00:00 - 买入 0.100000 BTC @ 84449.99, 成本: 8453.44
+2025-07-05 17:52:08,709 - quant_trading.backtest_engine - DEBUG - 2025-03-03 20:00:00 - 卖出 0.100000 BTC @ 86220.61, 收入: 8613.44
+2025-07-05 17:52:08,709 - quant_trading.backtest_engine - DEBUG - 2025-03-03 20:00:00 - 卖出 0.100000 BTC @ 86220.61, 收入: 8613.44
+2025-07-05 17:52:08,709 - quant_trading.backtest_engine - DEBUG - 2025-03-05 08:00:00 - 买入 0.100000 BTC @ 89814.26, 成本: 8990.41
+2025-07-05 17:52:08,709 - quant_trading.backtest_engine - DEBUG - 2025-03-05 08:00:00 - 买入 0.100000 BTC @ 89814.26, 成本: 8990.41
+2025-07-05 17:52:08,710 - quant_trading.backtest_engine - DEBUG - 2025-03-07 00:00:00 - 卖出 0.100000 BTC @ 86991.25, 收入: 8690.43
+2025-07-05 17:52:08,710 - quant_trading.backtest_engine - DEBUG - 2025-03-07 00:00:00 - 卖出 0.100000 BTC @ 86991.25, 收入: 8690.43
+2025-07-05 17:52:08,711 - quant_trading.backtest_engine - DEBUG - 2025-03-11 16:00:00 - 买入 0.100000 BTC @ 83104.01, 成本: 8318.71
+2025-07-05 17:52:08,711 - quant_trading.backtest_engine - DEBUG - 2025-03-11 16:00:00 - 买入 0.100000 BTC @ 83104.01, 成本: 8318.71
+2025-07-05 17:52:08,712 - quant_trading.backtest_engine - DEBUG - 2025-03-16 08:00:00 - 卖出 0.100000 BTC @ 82410.02, 收入: 8232.76
+2025-07-05 17:52:08,712 - quant_trading.backtest_engine - DEBUG - 2025-03-16 08:00:00 - 卖出 0.100000 BTC @ 82410.02, 收入: 8232.76
+2025-07-05 17:52:08,713 - quant_trading.backtest_engine - DEBUG - 2025-03-17 16:00:00 - 买入 0.100000 BTC @ 84482.55, 成本: 8456.70
+2025-07-05 17:52:08,713 - quant_trading.backtest_engine - DEBUG - 2025-03-17 16:00:00 - 买入 0.100000 BTC @ 84482.55, 成本: 8456.70
+2025-07-05 17:52:08,713 - quant_trading.backtest_engine - DEBUG - 2025-03-18 00:00:00 - 卖出 0.100000 BTC @ 83147.60, 收入: 8306.45
+2025-07-05 17:52:08,713 - quant_trading.backtest_engine - DEBUG - 2025-03-18 00:00:00 - 卖出 0.100000 BTC @ 83147.60, 收入: 8306.45
+2025-07-05 17:52:08,713 - quant_trading.backtest_engine - DEBUG - 2025-03-19 08:00:00 - 买入 0.100000 BTC @ 83881.40, 成本: 8396.53
+2025-07-05 17:52:08,713 - quant_trading.backtest_engine - DEBUG - 2025-03-19 08:00:00 - 买入 0.100000 BTC @ 83881.40, 成本: 8396.53
+2025-07-05 17:52:08,714 - quant_trading.backtest_engine - DEBUG - 2025-03-21 00:00:00 - 卖出 0.100000 BTC @ 84451.96, 收入: 8436.75
+2025-07-05 17:52:08,714 - quant_trading.backtest_engine - DEBUG - 2025-03-21 00:00:00 - 卖出 0.100000 BTC @ 84451.96, 收入: 8436.75
+2025-07-05 17:52:08,714 - quant_trading.backtest_engine - DEBUG - 2025-03-23 12:00:00 - 买入 0.100000 BTC @ 85189.41, 成本: 8527.46
+2025-07-05 17:52:08,714 - quant_trading.backtest_engine - DEBUG - 2025-03-23 12:00:00 - 买入 0.100000 BTC @ 85189.41, 成本: 8527.46
+2025-07-05 17:52:08,715 - quant_trading.backtest_engine - DEBUG - 2025-03-26 00:00:00 - 卖出 0.100000 BTC @ 87153.51, 收入: 8706.64
+2025-07-05 17:52:08,715 - quant_trading.backtest_engine - DEBUG - 2025-03-26 00:00:00 - 卖出 0.100000 BTC @ 87153.51, 收入: 8706.64
+2025-07-05 17:52:08,715 - quant_trading.backtest_engine - DEBUG - 2025-03-26 04:00:00 - 买入 0.100000 BTC @ 88140.45, 成本: 8822.86
+2025-07-05 17:52:08,715 - quant_trading.backtest_engine - DEBUG - 2025-03-26 04:00:00 - 买入 0.100000 BTC @ 88140.45, 成本: 8822.86
+2025-07-05 17:52:08,715 - quant_trading.backtest_engine - DEBUG - 2025-03-26 12:00:00 - 卖出 0.100000 BTC @ 86752.52, 收入: 8666.58
+2025-07-05 17:52:08,715 - quant_trading.backtest_engine - DEBUG - 2025-03-26 12:00:00 - 卖出 0.100000 BTC @ 86752.52, 收入: 8666.58
+2025-07-05 17:52:08,716 - quant_trading.backtest_engine - DEBUG - 2025-03-31 12:00:00 - 买入 0.100000 BTC @ 83418.78, 成本: 8350.22
+2025-07-05 17:52:08,716 - quant_trading.backtest_engine - DEBUG - 2025-03-31 12:00:00 - 买入 0.100000 BTC @ 83418.78, 成本: 8350.22
+2025-07-05 17:52:08,717 - quant_trading.backtest_engine - DEBUG - 2025-04-03 04:00:00 - 卖出 0.100000 BTC @ 83456.75, 收入: 8337.33
+2025-07-05 17:52:08,717 - quant_trading.backtest_engine - DEBUG - 2025-04-03 04:00:00 - 卖出 0.100000 BTC @ 83456.75, 收入: 8337.33
+2025-07-05 17:52:08,717 - quant_trading.backtest_engine - DEBUG - 2025-04-04 20:00:00 - 买入 0.100000 BTC @ 83889.87, 成本: 8397.38
+2025-07-05 17:52:08,717 - quant_trading.backtest_engine - DEBUG - 2025-04-04 20:00:00 - 买入 0.100000 BTC @ 83889.87, 成本: 8397.38
+2025-07-05 17:52:08,717 - quant_trading.backtest_engine - DEBUG - 2025-04-05 12:00:00 - 卖出 0.100000 BTC @ 82618.26, 收入: 8253.56
+2025-07-05 17:52:08,717 - quant_trading.backtest_engine - DEBUG - 2025-04-05 12:00:00 - 卖出 0.100000 BTC @ 82618.26, 收入: 8253.56
+2025-07-05 17:52:08,718 - quant_trading.backtest_engine - DEBUG - 2025-04-05 20:00:00 - 买入 0.100000 BTC @ 83537.99, 成本: 8362.15
+2025-07-05 17:52:08,718 - quant_trading.backtest_engine - DEBUG - 2025-04-05 20:00:00 - 买入 0.100000 BTC @ 83537.99, 成本: 8362.15
+2025-07-05 17:52:08,718 - quant_trading.backtest_engine - DEBUG - 2025-04-06 08:00:00 - 卖出 0.100000 BTC @ 82855.99, 收入: 8277.31
+2025-07-05 17:52:08,718 - quant_trading.backtest_engine - DEBUG - 2025-04-06 08:00:00 - 卖出 0.100000 BTC @ 82855.99, 收入: 8277.31
+2025-07-05 17:52:08,718 - quant_trading.backtest_engine - DEBUG - 2025-04-08 08:00:00 - 买入 0.100000 BTC @ 79982.00, 成本: 8006.20
+2025-07-05 17:52:08,718 - quant_trading.backtest_engine - DEBUG - 2025-04-08 08:00:00 - 买入 0.100000 BTC @ 79982.00, 成本: 8006.20
+2025-07-05 17:52:08,718 - quant_trading.backtest_engine - DEBUG - 2025-04-08 16:00:00 - 卖出 0.100000 BTC @ 76854.05, 收入: 7677.72
+2025-07-05 17:52:08,718 - quant_trading.backtest_engine - DEBUG - 2025-04-08 16:00:00 - 卖出 0.100000 BTC @ 76854.05, 收入: 7677.72
+2025-07-05 17:52:08,719 - quant_trading.backtest_engine - DEBUG - 2025-04-09 16:00:00 - 买入 0.100000 BTC @ 82332.08, 成本: 8241.44
+2025-07-05 17:52:08,719 - quant_trading.backtest_engine - DEBUG - 2025-04-09 16:00:00 - 买入 0.100000 BTC @ 82332.08, 成本: 8241.44
+2025-07-05 17:52:08,720 - quant_trading.backtest_engine - DEBUG - 2025-04-13 16:00:00 - 卖出 0.100000 BTC @ 83981.31, 收入: 8389.73
+2025-07-05 17:52:08,720 - quant_trading.backtest_engine - DEBUG - 2025-04-13 16:00:00 - 卖出 0.100000 BTC @ 83981.31, 收入: 8389.73
+2025-07-05 17:52:08,721 - quant_trading.backtest_engine - DEBUG - 2025-04-19 08:00:00 - 买入 0.100000 BTC @ 85217.40, 成本: 8530.26
+2025-07-05 17:52:08,721 - quant_trading.backtest_engine - DEBUG - 2025-04-19 08:00:00 - 买入 0.100000 BTC @ 85217.40, 成本: 8530.26
+2025-07-05 17:52:08,721 - quant_trading.backtest_engine - DEBUG - 2025-04-20 04:00:00 - 卖出 0.100000 BTC @ 84784.01, 收入: 8469.92
+2025-07-05 17:52:08,721 - quant_trading.backtest_engine - DEBUG - 2025-04-20 04:00:00 - 卖出 0.100000 BTC @ 84784.01, 收入: 8469.92
+2025-07-05 17:52:08,721 - quant_trading.backtest_engine - DEBUG - 2025-04-21 00:00:00 - 买入 0.100000 BTC @ 87205.56, 成本: 8729.28
+2025-07-05 17:52:08,721 - quant_trading.backtest_engine - DEBUG - 2025-04-21 00:00:00 - 买入 0.100000 BTC @ 87205.56, 成本: 8729.28
+2025-07-05 17:52:08,722 - quant_trading.backtest_engine - DEBUG - 2025-04-24 08:00:00 - 卖出 0.100000 BTC @ 92619.94, 收入: 9252.73
+2025-07-05 17:52:08,722 - quant_trading.backtest_engine - DEBUG - 2025-04-24 08:00:00 - 卖出 0.100000 BTC @ 92619.94, 收入: 9252.73
+2025-07-05 17:52:08,736 - quant_trading.backtest_engine - INFO - 回测完成，总交易次数: 32, 最终净值: 9335.87 USDT
+2025-07-05 17:52:08,736 - quant_trading.backtest_engine - INFO - 回测完成，总交易次数: 32, 最终净值: 9335.87 USDT
+2025-07-05 17:52:08,736 - quant_trading - INFO - 回测完成，结果行数: 1000
+2025-07-05 17:52:08,736 - quant_trading - INFO - 回测完成，结果行数: 1000
+2025-07-05 17:52:08,736 - quant_trading - INFO - 回测净值范围: 8358.72 - 10581.12 USDT
+2025-07-05 17:52:08,736 - quant_trading - INFO - 回测净值范围: 8358.72 - 10581.12 USDT
+2025-07-05 17:52:08,737 - quant_trading - INFO - 买入信号数: 39, 卖出信号数: 39
+2025-07-05 17:52:08,737 - quant_trading - INFO - 买入信号数: 39, 卖出信号数: 39
+2025-07-05 17:52:08,737 - quant_trading - INFO - Analyzing performance...
+2025-07-05 17:52:08,737 - quant_trading - INFO - Analyzing performance...
+2025-07-05 17:52:08,746 - quant_trading - INFO - 回测结果保存至: /Users/heyuanze/trading-btc/src/../results/backtest_results.csv
+2025-07-05 17:52:08,746 - quant_trading - INFO - 回测结果保存至: /Users/heyuanze/trading-btc/src/../results/backtest_results.csv
+2025-07-05 17:52:09,444 - quant_trading.performance - INFO - 结果图保存至: /Users/heyuanze/trading-btc/src/../results/backtest_plot.png
+2025-07-05 17:52:09,444 - quant_trading.performance - INFO - 结果图保存至: /Users/heyuanze/trading-btc/src/../results/backtest_plot.png
+2025-07-05 17:52:09,444 - quant_trading - INFO - 回测图表保存至: /Users/heyuanze/trading-btc/src/../results/backtest_plot.png
+2025-07-05 17:52:09,444 - quant_trading - INFO - 回测图表保存至: /Users/heyuanze/trading-btc/src/../results/backtest_plot.png
+2025-07-05 17:54:57,404 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 17:54:57,405 - quant_trading - INFO - 配置文件加载成功
+2025-07-05 17:54:57,405 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 17:54:58,628 - quant_trading - INFO - 数据准备完成。行数: 1000
+2025-07-05 17:54:58,629 - quant_trading - INFO - 数据日期范围: 2025-01-19 20:00:00 至 2025-07-05 08:00:00
+2025-07-05 17:54:58,629 - quant_trading - INFO - 策略参数: {'fast_period': 12, 'slow_period': 26, 'signal_period': 9, 'trade_amount': 0.1}
+2025-07-05 17:54:58,629 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-05 17:54:58,629 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 1000
+2025-07-05 17:54:58,629 - quant_trading - INFO - 策略初始化完成
+2025-07-05 17:54:58,629 - quant_trading - INFO - Running backtest...
+2025-07-05 17:54:58,630 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:54:58,630 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 17:54:58,630 - quant_trading.backtest_engine - INFO - 回测日期范围: 2025-04-01 00:00:00 至 2025-07-05 00:00:00
+2025-07-05 17:54:58,630 - quant_trading.backtest_engine - INFO - 回测日期范围: 2025-04-01 00:00:00 至 2025-07-05 00:00:00
+2025-07-05 17:54:58,631 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 571
+2025-07-05 17:54:58,631 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 571
+2025-07-05 17:54:58,631 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 571
+2025-07-05 17:54:58,631 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 571
+2025-07-05 17:54:58,631 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-05 17:54:58,631 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-05 17:54:58,633 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-05 17:54:58,633 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-05 17:54:58,633 - quant_trading.macd_strategy - INFO - 发现 20 个买入信号
+2025-07-05 17:54:58,633 - quant_trading.macd_strategy - INFO - 发现 20 个买入信号
+2025-07-05 17:54:58,634 - quant_trading.macd_strategy - INFO - 发现 20 个卖出信号
+2025-07-05 17:54:58,634 - quant_trading.macd_strategy - INFO - 发现 20 个卖出信号
+2025-07-05 17:54:58,634 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-05 17:54:58,634 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-05 17:54:58,634 - quant_trading.backtest_engine - INFO - 初始资金: 10000.00 USDT, 手续费率: 0.10%, 交易量: 0.1 BTC
+2025-07-05 17:54:58,634 - quant_trading.backtest_engine - INFO - 初始资金: 10000.00 USDT, 手续费率: 0.10%, 交易量: 0.1 BTC
+2025-07-05 17:54:58,635 - quant_trading.backtest_engine - DEBUG - 2025-04-01 04:00:00 - 买入 0.100000 BTC @ 83445.50, 成本: 8352.89
+2025-07-05 17:54:58,635 - quant_trading.backtest_engine - DEBUG - 2025-04-01 04:00:00 - 买入 0.100000 BTC @ 83445.50, 成本: 8352.89
+2025-07-05 17:54:58,636 - quant_trading.backtest_engine - DEBUG - 2025-04-03 00:00:00 - 卖出 0.100000 BTC @ 83483.97, 收入: 8340.05
+2025-07-05 17:54:58,636 - quant_trading.backtest_engine - DEBUG - 2025-04-03 00:00:00 - 卖出 0.100000 BTC @ 83483.97, 收入: 8340.05
+2025-07-05 17:54:58,637 - quant_trading.backtest_engine - DEBUG - 2025-04-05 00:00:00 - 买入 0.100000 BTC @ 83624.01, 成本: 8370.76
+2025-07-05 17:54:58,637 - quant_trading.backtest_engine - DEBUG - 2025-04-05 00:00:00 - 买入 0.100000 BTC @ 83624.01, 成本: 8370.76
+2025-07-05 17:54:58,637 - quant_trading.backtest_engine - DEBUG - 2025-04-05 12:00:00 - 卖出 0.100000 BTC @ 82618.26, 收入: 8253.56
+2025-07-05 17:54:58,637 - quant_trading.backtest_engine - DEBUG - 2025-04-05 12:00:00 - 卖出 0.100000 BTC @ 82618.26, 收入: 8253.56
+2025-07-05 17:54:58,638 - quant_trading.backtest_engine - DEBUG - 2025-04-08 08:00:00 - 买入 0.100000 BTC @ 79982.00, 成本: 8006.20
+2025-07-05 17:54:58,638 - quant_trading.backtest_engine - DEBUG - 2025-04-08 08:00:00 - 买入 0.100000 BTC @ 79982.00, 成本: 8006.20
+2025-07-05 17:54:58,638 - quant_trading.backtest_engine - DEBUG - 2025-04-08 16:00:00 - 卖出 0.100000 BTC @ 76854.05, 收入: 7677.72
+2025-07-05 17:54:58,638 - quant_trading.backtest_engine - DEBUG - 2025-04-08 16:00:00 - 卖出 0.100000 BTC @ 76854.05, 收入: 7677.72
+2025-07-05 17:54:58,638 - quant_trading.backtest_engine - DEBUG - 2025-04-09 16:00:00 - 买入 0.100000 BTC @ 82332.08, 成本: 8241.44
+2025-07-05 17:54:58,638 - quant_trading.backtest_engine - DEBUG - 2025-04-09 16:00:00 - 买入 0.100000 BTC @ 82332.08, 成本: 8241.44
+2025-07-05 17:54:58,639 - quant_trading.backtest_engine - DEBUG - 2025-04-13 16:00:00 - 卖出 0.100000 BTC @ 83981.31, 收入: 8389.73
+2025-07-05 17:54:58,639 - quant_trading.backtest_engine - DEBUG - 2025-04-13 16:00:00 - 卖出 0.100000 BTC @ 83981.31, 收入: 8389.73
+2025-07-05 17:54:58,641 - quant_trading.backtest_engine - DEBUG - 2025-04-19 08:00:00 - 买入 0.100000 BTC @ 85217.40, 成本: 8530.26
+2025-07-05 17:54:58,641 - quant_trading.backtest_engine - DEBUG - 2025-04-19 08:00:00 - 买入 0.100000 BTC @ 85217.40, 成本: 8530.26
+2025-07-05 17:54:58,641 - quant_trading.backtest_engine - DEBUG - 2025-04-20 04:00:00 - 卖出 0.100000 BTC @ 84784.01, 收入: 8469.92
+2025-07-05 17:54:58,641 - quant_trading.backtest_engine - DEBUG - 2025-04-20 04:00:00 - 卖出 0.100000 BTC @ 84784.01, 收入: 8469.92
+2025-07-05 17:54:58,641 - quant_trading.backtest_engine - DEBUG - 2025-04-21 00:00:00 - 买入 0.100000 BTC @ 87205.56, 成本: 8729.28
+2025-07-05 17:54:58,641 - quant_trading.backtest_engine - DEBUG - 2025-04-21 00:00:00 - 买入 0.100000 BTC @ 87205.56, 成本: 8729.28
+2025-07-05 17:54:58,642 - quant_trading.backtest_engine - DEBUG - 2025-04-24 08:00:00 - 卖出 0.100000 BTC @ 92619.94, 收入: 9252.73
+2025-07-05 17:54:58,642 - quant_trading.backtest_engine - DEBUG - 2025-04-24 08:00:00 - 卖出 0.100000 BTC @ 92619.94, 收入: 9252.73
+2025-07-05 17:54:58,644 - quant_trading.backtest_engine - DEBUG - 2025-05-01 08:00:00 - 买入 0.100000 BTC @ 96180.01, 成本: 9627.62
+2025-07-05 17:54:58,644 - quant_trading.backtest_engine - DEBUG - 2025-05-01 08:00:00 - 买入 0.100000 BTC @ 96180.01, 成本: 9627.62
+2025-07-05 17:54:58,644 - quant_trading.backtest_engine - DEBUG - 2025-05-03 04:00:00 - 卖出 0.100000 BTC @ 96322.68, 收入: 9622.64
+2025-07-05 17:54:58,644 - quant_trading.backtest_engine - DEBUG - 2025-05-03 04:00:00 - 卖出 0.100000 BTC @ 96322.68, 收入: 9622.64
+2025-07-05 17:54:58,645 - quant_trading.backtest_engine - DEBUG - 2025-05-06 20:00:00 - 买入 0.100000 BTC @ 96834.02, 成本: 9693.09
+2025-07-05 17:54:58,645 - quant_trading.backtest_engine - DEBUG - 2025-05-06 20:00:00 - 买入 0.100000 BTC @ 96834.02, 成本: 9693.09
+2025-07-05 17:54:58,647 - quant_trading.backtest_engine - DEBUG - 2025-05-10 16:00:00 - 卖出 0.100000 BTC @ 103191.35, 收入: 10308.82
+2025-07-05 17:54:58,647 - quant_trading.backtest_engine - DEBUG - 2025-05-10 16:00:00 - 卖出 0.100000 BTC @ 103191.35, 收入: 10308.82
+2025-07-05 17:54:58,647 - quant_trading.backtest_engine - DEBUG - 2025-05-10 20:00:00 - 买入 0.100000 BTC @ 104809.53, 成本: 10491.43
+2025-07-05 17:54:58,647 - quant_trading.backtest_engine - DEBUG - 2025-05-10 20:00:00 - 买入 0.100000 BTC @ 104809.53, 成本: 10491.43
+2025-07-05 17:54:58,647 - quant_trading.backtest_engine - DEBUG - 2025-05-11 00:00:00 - 卖出 0.100000 BTC @ 104007.03, 收入: 10390.30
+2025-07-05 17:54:58,647 - quant_trading.backtest_engine - DEBUG - 2025-05-11 00:00:00 - 卖出 0.100000 BTC @ 104007.03, 收入: 10390.30
+2025-07-05 17:54:58,649 - quant_trading.backtest_engine - DEBUG - 2025-05-16 12:00:00 - 买入 0.100000 BTC @ 104183.33, 成本: 10428.75
+2025-07-05 17:54:58,649 - quant_trading.backtest_engine - DEBUG - 2025-05-16 12:00:00 - 买入 0.100000 BTC @ 104183.33, 成本: 10428.75
+2025-07-05 17:54:58,649 - quant_trading.backtest_engine - DEBUG - 2025-05-17 00:00:00 - 卖出 0.100000 BTC @ 103508.48, 收入: 10340.50
+2025-07-05 17:54:58,649 - quant_trading.backtest_engine - DEBUG - 2025-05-17 00:00:00 - 卖出 0.100000 BTC @ 103508.48, 收入: 10340.50
+2025-07-05 17:54:58,649 - quant_trading.backtest_engine - DEBUG - 2025-05-18 12:00:00 - 买入 0.100000 BTC @ 105518.00, 成本: 10562.35
+2025-07-05 17:54:58,649 - quant_trading.backtest_engine - DEBUG - 2025-05-18 12:00:00 - 买入 0.100000 BTC @ 105518.00, 成本: 10562.35
+2025-07-05 17:54:58,649 - quant_trading.backtest_engine - DEBUG - 2025-05-19 08:00:00 - 卖出 0.100000 BTC @ 102963.41, 收入: 10286.04
+2025-07-05 17:54:58,649 - quant_trading.backtest_engine - DEBUG - 2025-05-19 08:00:00 - 卖出 0.100000 BTC @ 102963.41, 收入: 10286.04
+2025-07-05 17:54:58,657 - quant_trading.backtest_engine - DEBUG - 2025-06-23 12:00:00 - 买入 0.100000 BTC @ 101420.70, 成本: 10152.21
+2025-07-05 17:54:58,657 - quant_trading.backtest_engine - DEBUG - 2025-06-23 12:00:00 - 买入 0.100000 BTC @ 101420.70, 成本: 10152.21
+2025-07-05 17:54:58,658 - quant_trading.backtest_engine - DEBUG - 2025-06-27 00:00:00 - 卖出 0.100000 BTC @ 107477.76, 收入: 10737.03
+2025-07-05 17:54:58,658 - quant_trading.backtest_engine - DEBUG - 2025-06-27 00:00:00 - 卖出 0.100000 BTC @ 107477.76, 收入: 10737.03
+2025-07-05 17:54:58,658 - quant_trading.backtest_engine - DEBUG - 2025-06-30 00:00:00 - 买入 0.100000 BTC @ 108503.74, 成本: 10861.22
+2025-07-05 17:54:58,658 - quant_trading.backtest_engine - DEBUG - 2025-06-30 00:00:00 - 买入 0.100000 BTC @ 108503.74, 成本: 10861.22
+2025-07-05 17:54:58,658 - quant_trading.backtest_engine - DEBUG - 2025-06-30 04:00:00 - 卖出 0.100000 BTC @ 107614.08, 收入: 10750.65
+2025-07-05 17:54:58,658 - quant_trading.backtest_engine - DEBUG - 2025-06-30 04:00:00 - 卖出 0.100000 BTC @ 107614.08, 收入: 10750.65
+2025-07-05 17:54:58,659 - quant_trading.backtest_engine - INFO - 回测完成，总交易次数: 26, 最终净值: 10772.18 USDT
+2025-07-05 17:54:58,659 - quant_trading.backtest_engine - INFO - 回测完成，总交易次数: 26, 最终净值: 10772.18 USDT
+2025-07-05 17:54:58,659 - quant_trading - INFO - 回测完成，结果行数: 571
+2025-07-05 17:54:58,659 - quant_trading - INFO - 回测完成，结果行数: 571
+2025-07-05 17:54:58,660 - quant_trading - INFO - 回测净值范围: 9175.74 - 10931.11 USDT
+2025-07-05 17:54:58,660 - quant_trading - INFO - 回测净值范围: 9175.74 - 10931.11 USDT
+2025-07-05 17:54:58,660 - quant_trading - INFO - 买入信号数: 20, 卖出信号数: 20
+2025-07-05 17:54:58,660 - quant_trading - INFO - 买入信号数: 20, 卖出信号数: 20
+2025-07-05 17:54:58,660 - quant_trading - INFO - Analyzing performance...
+2025-07-05 17:54:58,660 - quant_trading - INFO - Analyzing performance...
+2025-07-05 17:54:58,667 - quant_trading - INFO - 回测结果保存至: /Users/heyuanze/trading-btc/src/../results/backtest_results.csv
+2025-07-05 17:54:58,667 - quant_trading - INFO - 回测结果保存至: /Users/heyuanze/trading-btc/src/../results/backtest_results.csv
+2025-07-05 17:54:58,847 - quant_trading.performance - INFO - 结果图保存至: /Users/heyuanze/trading-btc/src/../results/backtest_plot.png
+2025-07-05 17:54:58,847 - quant_trading.performance - INFO - 结果图保存至: /Users/heyuanze/trading-btc/src/../results/backtest_plot.png
+2025-07-05 17:54:58,847 - quant_trading - INFO - 回测图表保存至: /Users/heyuanze/trading-btc/src/../results/backtest_plot.png
+2025-07-05 17:54:58,847 - quant_trading - INFO - 回测图表保存至: /Users/heyuanze/trading-btc/src/../results/backtest_plot.png

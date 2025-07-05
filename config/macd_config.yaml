@@ -1,0 +1,16 @@
+# MACD策略参数配置
+strategy:
+  name: "BTC_MACD_4H"
+  symbol: "BTC/USDT"
+  timeframe: "4h"
+  parameters:
+    fast_period: 12
+    slow_period: 26
+    signal_period: 9
+    trade_amount: 0.1  # BTC交易量
+
+backtest:
+  start_date: "2025-04-01"
+  end_date: "2025-07-05"
+  initial_capital: 10000.0  # USDT
+  commission: 0.001  # 交易手续费(0.1%)
