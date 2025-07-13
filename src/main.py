@@ -1,6 +1,12 @@
 import os
 import yaml
 import pandas as pd
+import threading
+import time
+import matplotlib
+from src.live_trading.live_engine import LiveTradingEngine
+from src.monitoring.realtime_monitor import RealTimeMonitor
+from src.utils.logging_config import setup_logging
 from src.data_preparation.data_fetcher import fetch_btc_data
 from src.data_preparation.data_cleaner import clean_data
 from src.strategy_development.macd_strategy import MACDStrategy
@@ -8,7 +14,7 @@ from src.backtesting.backtest_engine import BacktestEngine
 from src.backtesting.performance import PerformanceAnalyzer
 from src.utils.logging_config import setup_logging
 
-def main():
+def run_backtest():
     # 设置日志
     logger = setup_logging()
     logger.info("Starting BTC MACD 4H Strategy Backtest")
@@ -157,5 +163,85 @@ def main():
     except Exception as e:
         logger.error(f"绩效分析失败: {str(e)}")
 
+# if __name__ == "__main__":
+    #main()
+
+# 设置Matplotlib使用合适的后端
+matplotlib.use('Agg')  # 默认使用非交互式后端
+try:
+    matplotlib.use('TkAgg')  # 尝试使用Tkinter后端
+except:
+    try:
+        matplotlib.use('Qt5Agg')  # 尝试使用Qt后端
+    except:
+        pass  # 使用默认后端
+
+def run_live_trading(config_path):
+    """运行实盘交易"""
+    # 设置日志
+    logger = setup_logging()
+    logger.info("启动币安模拟盘交易")
+    
+    # 加载配置
+    try:
+        with open(config_path, 'r') as f:
+            config = yaml.safe_load(f)
+        logger.info("实盘配置加载成功")
+    except Exception as e:
+        logger.error(f"加载配置文件失败: {str(e)}")
+        return
+    
+    # 创建交易引擎
+    live_config = config['binance']
+    strategy_config = {
+        'symbol': live_config['symbol'],
+        'timeframe': live_config['timeframe'],
+        'testnet': live_config.get('testnet', True),
+        'api_key': live_config['api_key'],
+        'api_secret': live_config['api_secret'],
+        'strategy_params': config['strategy']['parameters'],
+        'trade_amount': config['strategy']['parameters'].get('trade_amount', 0.01),
+        'initial_capital': config['backtest'].get('initial_capital', 10000)
+    }
+    
+    try:
+        engine = LiveTradingEngine(strategy_config)
+        
+        # 启动监控（在主线程中）
+        monitor = RealTimeMonitor(engine)
+        
+        # 启动交易引擎（在独立线程中）
+        engine_thread = threading.Thread(target=engine.start)
+        engine_thread.daemon = True
+        engine_thread.start()
+        
+        # 启动监控（这会阻塞主线程）
+        monitor.start()
+        
+        # 监控停止后停止交易引擎
+        engine.stop()
+        engine_thread.join(timeout=10)
+        
+    except KeyboardInterrupt:
+        logger.info("用户中断，停止交易")
+        engine.stop()
+    except Exception as e:
+        logger.error(f"交易引擎启动失败: {str(e)}")
+
 if __name__ == "__main__":
-    main()
+    # 选择运行模式：回测或实盘
+    print("请选择运行模式:")
+    print("1. 回测")
+    print("2. 实盘模拟交易")
+    
+    choice = input("输入选择 (1/2): ")
+    
+    if choice == "1":
+        # 运行回测（原有代码）
+        run_backtest()
+    elif choice == "2":
+        # 运行实盘交易
+        config_path = os.path.join(os.path.dirname(__file__), '..', 'config', 'live_config.yaml')
+        run_live_trading(config_path)
+    else:
+        print("无效选择")

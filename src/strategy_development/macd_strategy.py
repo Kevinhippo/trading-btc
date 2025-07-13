@@ -18,8 +18,8 @@ class MACDStrategy(StrategyBase):
         signal_period = self.params['signal_period']
         
         # 计算指数移动平均线
-        data['ema_fast'] = data['Close'].ewm(span=fast_period, adjust=False).mean()
-        data['ema_slow'] = data['Close'].ewm(span=slow_period, adjust=False).mean()
+        data['ema_fast'] = data['close'].ewm(span=fast_period, adjust=False).mean()
+        data['ema_slow'] = data['close'].ewm(span=slow_period, adjust=False).mean()
         
         # 计算MACD线和信号线
         data['macd'] = data['ema_fast'] - data['ema_slow']

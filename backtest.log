@@ -713,3 +713,883 @@ KeyError: 'close'
 2025-07-05 17:54:58,847 - quant_trading.performance - INFO - 结果图保存至: /Users/heyuanze/trading-btc/src/../results/backtest_plot.png
 2025-07-05 17:54:58,847 - quant_trading - INFO - 回测图表保存至: /Users/heyuanze/trading-btc/src/../results/backtest_plot.png
 2025-07-05 17:54:58,847 - quant_trading - INFO - 回测图表保存至: /Users/heyuanze/trading-btc/src/../results/backtest_plot.png
+2025-07-05 23:34:58,312 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 23:34:58,313 - quant_trading - INFO - 配置文件加载成功
+2025-07-05 23:34:58,313 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 23:35:08,337 - quant_trading - ERROR - 数据准备失败: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/ping (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x10af7dbe0>, 'Connection to api.binance.com timed out. (connect timeout=10)'))
+2025-07-05 23:35:18,942 - quant_trading - INFO - Starting BTC MACD 4H Strategy Backtest
+2025-07-05 23:35:18,943 - quant_trading - INFO - 配置文件加载成功
+2025-07-05 23:35:18,943 - quant_trading - INFO - Fetching and preparing data...
+2025-07-05 23:35:19,859 - quant_trading - INFO - 数据准备完成。行数: 1000
+2025-07-05 23:35:19,860 - quant_trading - INFO - 数据日期范围: 2025-01-20 00:00:00 至 2025-07-05 12:00:00
+2025-07-05 23:35:19,860 - quant_trading - INFO - 策略参数: {'fast_period': 12, 'slow_period': 26, 'signal_period': 9, 'trade_amount': 0.1}
+2025-07-05 23:35:19,861 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-05 23:35:19,861 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 1000
+2025-07-05 23:35:19,861 - quant_trading - INFO - 策略初始化完成
+2025-07-05 23:35:19,861 - quant_trading - INFO - Running backtest...
+2025-07-05 23:35:19,861 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 23:35:19,861 - quant_trading.backtest_engine - INFO - 开始回测...
+2025-07-05 23:35:19,862 - quant_trading.backtest_engine - INFO - 回测日期范围: 2025-04-01 00:00:00 至 2025-07-05 00:00:00
+2025-07-05 23:35:19,862 - quant_trading.backtest_engine - INFO - 回测日期范围: 2025-04-01 00:00:00 至 2025-07-05 00:00:00
+2025-07-05 23:35:19,863 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 571
+2025-07-05 23:35:19,863 - quant_trading.backtest_engine - INFO - 筛选后数据行数: 571
+2025-07-05 23:35:19,863 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 571
+2025-07-05 23:35:19,863 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 571
+2025-07-05 23:35:19,863 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-05 23:35:19,863 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-05 23:35:19,866 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-05 23:35:19,866 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-05 23:35:19,866 - quant_trading.macd_strategy - INFO - 发现 20 个买入信号
+2025-07-05 23:35:19,866 - quant_trading.macd_strategy - INFO - 发现 20 个买入信号
+2025-07-05 23:35:19,867 - quant_trading.macd_strategy - INFO - 发现 20 个卖出信号
+2025-07-05 23:35:19,867 - quant_trading.macd_strategy - INFO - 发现 20 个卖出信号
+2025-07-05 23:35:19,867 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-05 23:35:19,867 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-05 23:35:19,867 - quant_trading.backtest_engine - INFO - 初始资金: 10000.00 USDT, 手续费率: 0.10%, 交易量: 0.1 BTC
+2025-07-05 23:35:19,867 - quant_trading.backtest_engine - INFO - 初始资金: 10000.00 USDT, 手续费率: 0.10%, 交易量: 0.1 BTC
+2025-07-05 23:35:19,868 - quant_trading.backtest_engine - DEBUG - 2025-04-01 04:00:00 - 买入 0.100000 BTC @ 83445.50, 成本: 8352.89
+2025-07-05 23:35:19,868 - quant_trading.backtest_engine - DEBUG - 2025-04-01 04:00:00 - 买入 0.100000 BTC @ 83445.50, 成本: 8352.89
+2025-07-05 23:35:19,870 - quant_trading.backtest_engine - DEBUG - 2025-04-03 00:00:00 - 卖出 0.100000 BTC @ 83483.97, 收入: 8340.05
+2025-07-05 23:35:19,870 - quant_trading.backtest_engine - DEBUG - 2025-04-03 00:00:00 - 卖出 0.100000 BTC @ 83483.97, 收入: 8340.05
+2025-07-05 23:35:19,870 - quant_trading.backtest_engine - DEBUG - 2025-04-05 00:00:00 - 买入 0.100000 BTC @ 83624.01, 成本: 8370.76
+2025-07-05 23:35:19,870 - quant_trading.backtest_engine - DEBUG - 2025-04-05 00:00:00 - 买入 0.100000 BTC @ 83624.01, 成本: 8370.76
+2025-07-05 23:35:19,870 - quant_trading.backtest_engine - DEBUG - 2025-04-05 12:00:00 - 卖出 0.100000 BTC @ 82618.26, 收入: 8253.56
+2025-07-05 23:35:19,870 - quant_trading.backtest_engine - DEBUG - 2025-04-05 12:00:00 - 卖出 0.100000 BTC @ 82618.26, 收入: 8253.56
+2025-07-05 23:35:19,872 - quant_trading.backtest_engine - DEBUG - 2025-04-08 08:00:00 - 买入 0.100000 BTC @ 79982.00, 成本: 8006.20
+2025-07-05 23:35:19,872 - quant_trading.backtest_engine - DEBUG - 2025-04-08 08:00:00 - 买入 0.100000 BTC @ 79982.00, 成本: 8006.20
+2025-07-05 23:35:19,872 - quant_trading.backtest_engine - DEBUG - 2025-04-08 16:00:00 - 卖出 0.100000 BTC @ 76854.05, 收入: 7677.72
+2025-07-05 23:35:19,872 - quant_trading.backtest_engine - DEBUG - 2025-04-08 16:00:00 - 卖出 0.100000 BTC @ 76854.05, 收入: 7677.72
+2025-07-05 23:35:19,872 - quant_trading.backtest_engine - DEBUG - 2025-04-09 16:00:00 - 买入 0.100000 BTC @ 82332.08, 成本: 8241.44
+2025-07-05 23:35:19,872 - quant_trading.backtest_engine - DEBUG - 2025-04-09 16:00:00 - 买入 0.100000 BTC @ 82332.08, 成本: 8241.44
+2025-07-05 23:35:19,873 - quant_trading.backtest_engine - DEBUG - 2025-04-13 16:00:00 - 卖出 0.100000 BTC @ 83981.31, 收入: 8389.73
+2025-07-05 23:35:19,873 - quant_trading.backtest_engine - DEBUG - 2025-04-13 16:00:00 - 卖出 0.100000 BTC @ 83981.31, 收入: 8389.73
+2025-07-05 23:35:19,874 - quant_trading.backtest_engine - DEBUG - 2025-04-19 08:00:00 - 买入 0.100000 BTC @ 85217.40, 成本: 8530.26
+2025-07-05 23:35:19,874 - quant_trading.backtest_engine - DEBUG - 2025-04-19 08:00:00 - 买入 0.100000 BTC @ 85217.40, 成本: 8530.26
+2025-07-05 23:35:19,875 - quant_trading.backtest_engine - DEBUG - 2025-04-20 04:00:00 - 卖出 0.100000 BTC @ 84784.01, 收入: 8469.92
+2025-07-05 23:35:19,875 - quant_trading.backtest_engine - DEBUG - 2025-04-20 04:00:00 - 卖出 0.100000 BTC @ 84784.01, 收入: 8469.92
+2025-07-05 23:35:19,875 - quant_trading.backtest_engine - DEBUG - 2025-04-21 00:00:00 - 买入 0.100000 BTC @ 87205.56, 成本: 8729.28
+2025-07-05 23:35:19,875 - quant_trading.backtest_engine - DEBUG - 2025-04-21 00:00:00 - 买入 0.100000 BTC @ 87205.56, 成本: 8729.28
+2025-07-05 23:35:19,876 - quant_trading.backtest_engine - DEBUG - 2025-04-24 08:00:00 - 卖出 0.100000 BTC @ 92619.94, 收入: 9252.73
+2025-07-05 23:35:19,876 - quant_trading.backtest_engine - DEBUG - 2025-04-24 08:00:00 - 卖出 0.100000 BTC @ 92619.94, 收入: 9252.73
+2025-07-05 23:35:19,877 - quant_trading.backtest_engine - DEBUG - 2025-05-01 08:00:00 - 买入 0.100000 BTC @ 96180.01, 成本: 9627.62
+2025-07-05 23:35:19,877 - quant_trading.backtest_engine - DEBUG - 2025-05-01 08:00:00 - 买入 0.100000 BTC @ 96180.01, 成本: 9627.62
+2025-07-05 23:35:19,878 - quant_trading.backtest_engine - DEBUG - 2025-05-03 04:00:00 - 卖出 0.100000 BTC @ 96322.68, 收入: 9622.64
+2025-07-05 23:35:19,878 - quant_trading.backtest_engine - DEBUG - 2025-05-03 04:00:00 - 卖出 0.100000 BTC @ 96322.68, 收入: 9622.64
+2025-07-05 23:35:19,879 - quant_trading.backtest_engine - DEBUG - 2025-05-06 20:00:00 - 买入 0.100000 BTC @ 96834.02, 成本: 9693.09
+2025-07-05 23:35:19,879 - quant_trading.backtest_engine - DEBUG - 2025-05-06 20:00:00 - 买入 0.100000 BTC @ 96834.02, 成本: 9693.09
+2025-07-05 23:35:19,880 - quant_trading.backtest_engine - DEBUG - 2025-05-10 16:00:00 - 卖出 0.100000 BTC @ 103191.35, 收入: 10308.82
+2025-07-05 23:35:19,880 - quant_trading.backtest_engine - DEBUG - 2025-05-10 16:00:00 - 卖出 0.100000 BTC @ 103191.35, 收入: 10308.82
+2025-07-05 23:35:19,880 - quant_trading.backtest_engine - DEBUG - 2025-05-10 20:00:00 - 买入 0.100000 BTC @ 104809.53, 成本: 10491.43
+2025-07-05 23:35:19,880 - quant_trading.backtest_engine - DEBUG - 2025-05-10 20:00:00 - 买入 0.100000 BTC @ 104809.53, 成本: 10491.43
+2025-07-05 23:35:19,880 - quant_trading.backtest_engine - DEBUG - 2025-05-11 00:00:00 - 卖出 0.100000 BTC @ 104007.03, 收入: 10390.30
+2025-07-05 23:35:19,880 - quant_trading.backtest_engine - DEBUG - 2025-05-11 00:00:00 - 卖出 0.100000 BTC @ 104007.03, 收入: 10390.30
+2025-07-05 23:35:19,881 - quant_trading.backtest_engine - DEBUG - 2025-05-16 12:00:00 - 买入 0.100000 BTC @ 104183.33, 成本: 10428.75
+2025-07-05 23:35:19,881 - quant_trading.backtest_engine - DEBUG - 2025-05-16 12:00:00 - 买入 0.100000 BTC @ 104183.33, 成本: 10428.75
+2025-07-05 23:35:19,881 - quant_trading.backtest_engine - DEBUG - 2025-05-17 00:00:00 - 卖出 0.100000 BTC @ 103508.48, 收入: 10340.50
+2025-07-05 23:35:19,881 - quant_trading.backtest_engine - DEBUG - 2025-05-17 00:00:00 - 卖出 0.100000 BTC @ 103508.48, 收入: 10340.50
+2025-07-05 23:35:19,881 - quant_trading.backtest_engine - DEBUG - 2025-05-18 12:00:00 - 买入 0.100000 BTC @ 105518.00, 成本: 10562.35
+2025-07-05 23:35:19,881 - quant_trading.backtest_engine - DEBUG - 2025-05-18 12:00:00 - 买入 0.100000 BTC @ 105518.00, 成本: 10562.35
+2025-07-05 23:35:19,882 - quant_trading.backtest_engine - DEBUG - 2025-05-19 08:00:00 - 卖出 0.100000 BTC @ 102963.41, 收入: 10286.04
+2025-07-05 23:35:19,882 - quant_trading.backtest_engine - DEBUG - 2025-05-19 08:00:00 - 卖出 0.100000 BTC @ 102963.41, 收入: 10286.04
+2025-07-05 23:35:19,889 - quant_trading.backtest_engine - DEBUG - 2025-06-23 12:00:00 - 买入 0.100000 BTC @ 101420.70, 成本: 10152.21
+2025-07-05 23:35:19,889 - quant_trading.backtest_engine - DEBUG - 2025-06-23 12:00:00 - 买入 0.100000 BTC @ 101420.70, 成本: 10152.21
+2025-07-05 23:35:19,889 - quant_trading.backtest_engine - DEBUG - 2025-06-27 00:00:00 - 卖出 0.100000 BTC @ 107477.76, 收入: 10737.03
+2025-07-05 23:35:19,889 - quant_trading.backtest_engine - DEBUG - 2025-06-27 00:00:00 - 卖出 0.100000 BTC @ 107477.76, 收入: 10737.03
+2025-07-05 23:35:19,890 - quant_trading.backtest_engine - DEBUG - 2025-06-30 00:00:00 - 买入 0.100000 BTC @ 108503.74, 成本: 10861.22
+2025-07-05 23:35:19,890 - quant_trading.backtest_engine - DEBUG - 2025-06-30 00:00:00 - 买入 0.100000 BTC @ 108503.74, 成本: 10861.22
+2025-07-05 23:35:19,890 - quant_trading.backtest_engine - DEBUG - 2025-06-30 04:00:00 - 卖出 0.100000 BTC @ 107614.08, 收入: 10750.65
+2025-07-05 23:35:19,890 - quant_trading.backtest_engine - DEBUG - 2025-06-30 04:00:00 - 卖出 0.100000 BTC @ 107614.08, 收入: 10750.65
+2025-07-05 23:35:19,891 - quant_trading.backtest_engine - INFO - 回测完成，总交易次数: 26, 最终净值: 10772.18 USDT
+2025-07-05 23:35:19,891 - quant_trading.backtest_engine - INFO - 回测完成，总交易次数: 26, 最终净值: 10772.18 USDT
+2025-07-05 23:35:19,891 - quant_trading - INFO - 回测完成，结果行数: 571
+2025-07-05 23:35:19,891 - quant_trading - INFO - 回测完成，结果行数: 571
+2025-07-05 23:35:19,891 - quant_trading - INFO - 回测净值范围: 9175.74 - 10931.11 USDT
+2025-07-05 23:35:19,891 - quant_trading - INFO - 回测净值范围: 9175.74 - 10931.11 USDT
+2025-07-05 23:35:19,892 - quant_trading - INFO - 买入信号数: 20, 卖出信号数: 20
+2025-07-05 23:35:19,892 - quant_trading - INFO - 买入信号数: 20, 卖出信号数: 20
+2025-07-05 23:35:19,892 - quant_trading - INFO - Analyzing performance...
+2025-07-05 23:35:19,892 - quant_trading - INFO - Analyzing performance...
+2025-07-05 23:35:19,899 - quant_trading - INFO - 回测结果保存至: /Users/heyuanze/trading-btc/src/../results/backtest_results.csv
+2025-07-05 23:35:19,899 - quant_trading - INFO - 回测结果保存至: /Users/heyuanze/trading-btc/src/../results/backtest_results.csv
+2025-07-05 23:35:20,077 - quant_trading.performance - INFO - 结果图保存至: /Users/heyuanze/trading-btc/src/../results/backtest_plot.png
+2025-07-05 23:35:20,077 - quant_trading.performance - INFO - 结果图保存至: /Users/heyuanze/trading-btc/src/../results/backtest_plot.png
+2025-07-05 23:35:20,077 - quant_trading - INFO - 回测图表保存至: /Users/heyuanze/trading-btc/src/../results/backtest_plot.png
+2025-07-05 23:35:20,077 - quant_trading - INFO - 回测图表保存至: /Users/heyuanze/trading-btc/src/../results/backtest_plot.png
+2025-07-13 11:05:57,410 - quant_trading - INFO - 启动币安模拟盘交易
+2025-07-13 11:05:57,414 - quant_trading - INFO - 实盘配置加载成功
+2025-07-13 11:05:57,414 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-13 11:05:57,414 - quant_trading.live_engine - INFO - 实盘交易引擎初始化完成
+2025-07-13 11:05:57,588 - quant_trading.monitor - INFO - 启动实时监控...
+2025-07-13 11:05:57,588 - quant_trading.live_engine - INFO - 启动实盘交易...
+2025-07-13 11:16:06,118 - quant_trading - INFO - 启动币安模拟盘交易
+2025-07-13 11:16:06,121 - quant_trading - INFO - 实盘配置加载成功
+2025-07-13 11:16:06,121 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-13 11:16:06,122 - quant_trading.live_engine - INFO - 实盘交易引擎初始化完成
+2025-07-13 11:16:06,248 - quant_trading.monitor - INFO - 启动实时监控...
+2025-07-13 11:16:06,248 - quant_trading.live_engine - INFO - 启动实盘交易...
+2025-07-13 11:37:15,482 - quant_trading - INFO - 启动币安模拟盘交易
+2025-07-13 11:37:15,485 - quant_trading - INFO - 实盘配置加载成功
+2025-07-13 11:37:15,485 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-13 11:37:15,486 - quant_trading.live_engine - INFO - 实盘交易引擎初始化完成
+2025-07-13 11:37:16,164 - quant_trading.monitor - INFO - 实时监控初始化完成
+2025-07-13 11:37:16,164 - quant_trading.live_engine - INFO - 启动实盘交易...
+2025-07-13 11:37:16,164 - quant_trading.monitor - INFO - 启动实时监控...
+2025-07-13 11:37:16,164 - quant_trading.monitor - INFO - 启动数据收集线程...
+2025-07-13 11:37:16,411 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 11:37:16,845 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:37:16,955 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 65
+2025-07-13 11:37:16,955 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 11:37:16,955 - quant_trading.live_engine - ERROR - 交易循环错误: 'Close'
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Close'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/heyuanze/trading-btc/src/live_trading/live_engine.py", line 179, in start
+    signal = self.run_strategy(data)
+  File "/Users/heyuanze/trading-btc/src/live_trading/live_engine.py", line 68, in run_strategy
+    signals = self.strategy.generate_signals()
+  File "/Users/heyuanze/trading-btc/src/strategy_development/macd_strategy.py", line 43, in generate_signals
+    data = self.calculate_macd(self.data.copy())
+  File "/Users/heyuanze/trading-btc/src/strategy_development/macd_strategy.py", line 21, in calculate_macd
+    data['ema_fast'] = data['Close'].ewm(span=fast_period, adjust=False).mean()
+                       ~~~~^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/frame.py", line 4107, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Close'
+2025-07-13 11:37:21,928 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:37:27,016 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:37:32,429 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:37:37,518 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:37:42,704 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:37:47,891 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:37:53,076 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:37:58,382 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:38:03,470 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:38:08,863 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:38:13,946 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:38:19,137 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:38:24,228 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:38:29,314 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:38:34,495 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:38:39,678 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:38:44,858 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:38:50,271 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:38:55,686 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:39:01,090 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:39:06,177 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:39:11,263 - quant_trading.monitor - ERROR - 更新监控数据失败: 'DataFrame' object has no attribute 'append'
+2025-07-13 11:43:04,136 - quant_trading - INFO - 启动币安模拟盘交易
+2025-07-13 11:43:04,140 - quant_trading - INFO - 实盘配置加载成功
+2025-07-13 11:43:04,140 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-13 11:43:04,140 - quant_trading.live_engine - INFO - 实盘交易引擎初始化完成
+2025-07-13 11:43:04,357 - quant_trading.monitor - INFO - 实时监控初始化完成
+2025-07-13 11:43:04,358 - quant_trading.live_engine - INFO - 启动实盘交易...
+2025-07-13 11:43:04,358 - quant_trading.monitor - INFO - 启动实时监控...
+2025-07-13 11:43:04,358 - quant_trading.monitor - INFO - 启动数据收集线程...
+2025-07-13 11:43:04,499 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 11:43:04,612 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 65
+2025-07-13 11:43:04,612 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 11:43:04,613 - quant_trading.live_engine - ERROR - 交易循环错误: 'Close'
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Close'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/heyuanze/trading-btc/src/live_trading/live_engine.py", line 179, in start
+    signal = self.run_strategy(data)
+  File "/Users/heyuanze/trading-btc/src/live_trading/live_engine.py", line 68, in run_strategy
+    signals = self.strategy.generate_signals()
+  File "/Users/heyuanze/trading-btc/src/strategy_development/macd_strategy.py", line 43, in generate_signals
+    data = self.calculate_macd(self.data.copy())
+  File "/Users/heyuanze/trading-btc/src/strategy_development/macd_strategy.py", line 21, in calculate_macd
+    data['ema_fast'] = data['Close'].ewm(span=fast_period, adjust=False).mean()
+                       ~~~~^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/frame.py", line 4107, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Close'
+2025-07-13 11:49:41,025 - quant_trading - INFO - 启动币安模拟盘交易
+2025-07-13 11:49:41,028 - quant_trading - INFO - 实盘配置加载成功
+2025-07-13 11:49:41,029 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-13 11:49:41,029 - quant_trading.live_engine - INFO - 实盘交易引擎初始化完成
+2025-07-13 11:49:41,235 - quant_trading.monitor - INFO - 实时监控初始化完成
+2025-07-13 11:49:41,235 - quant_trading.live_engine - INFO - 启动实盘交易...
+2025-07-13 11:49:41,235 - quant_trading.monitor - INFO - 启动实时监控...
+2025-07-13 11:49:41,236 - quant_trading.monitor - INFO - 启动数据收集线程...
+2025-07-13 11:49:41,482 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 11:49:41,613 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 65
+2025-07-13 11:49:41,613 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 11:49:41,613 - quant_trading.live_engine - ERROR - 交易循环错误: 'Close'
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Close'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/heyuanze/trading-btc/src/live_trading/live_engine.py", line 179, in start
+    signal = self.run_strategy(data)
+  File "/Users/heyuanze/trading-btc/src/live_trading/live_engine.py", line 68, in run_strategy
+    signals = self.strategy.generate_signals()
+  File "/Users/heyuanze/trading-btc/src/strategy_development/macd_strategy.py", line 43, in generate_signals
+    data = self.calculate_macd(self.data.copy())
+  File "/Users/heyuanze/trading-btc/src/strategy_development/macd_strategy.py", line 21, in calculate_macd
+    data['ema_fast'] = data['Close'].ewm(span=fast_period, adjust=False).mean()
+                       ~~~~^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/frame.py", line 4107, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Close'
+2025-07-13 11:51:08,642 - quant_trading - INFO - 启动币安模拟盘交易
+2025-07-13 11:51:08,644 - quant_trading - INFO - 实盘配置加载成功
+2025-07-13 11:51:08,645 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-13 11:51:08,645 - quant_trading.live_engine - INFO - 实盘交易引擎初始化完成
+2025-07-13 11:51:08,842 - quant_trading.monitor - INFO - 实时监控初始化完成
+2025-07-13 11:51:08,843 - quant_trading.live_engine - INFO - 启动实盘交易...
+2025-07-13 11:51:08,843 - quant_trading.monitor - INFO - 启动实时监控...
+2025-07-13 11:51:08,843 - quant_trading.monitor - INFO - 启动数据收集线程...
+2025-07-13 11:51:10,003 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 11:51:10,163 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 65
+2025-07-13 11:51:10,163 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 11:51:10,164 - quant_trading.live_engine - ERROR - 交易循环错误: 'Close'
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Close'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/heyuanze/trading-btc/src/live_trading/live_engine.py", line 179, in start
+    signal = self.run_strategy(data)
+  File "/Users/heyuanze/trading-btc/src/live_trading/live_engine.py", line 68, in run_strategy
+    signals = self.strategy.generate_signals()
+  File "/Users/heyuanze/trading-btc/src/strategy_development/macd_strategy.py", line 43, in generate_signals
+    data = self.calculate_macd(self.data.copy())
+  File "/Users/heyuanze/trading-btc/src/strategy_development/macd_strategy.py", line 21, in calculate_macd
+    data['ema_fast'] = data['Close'].ewm(span=fast_period, adjust=False).mean()
+                       ~~~~^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/frame.py", line 4107, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Close'
+2025-07-13 11:56:04,335 - quant_trading - INFO - 启动币安模拟盘交易
+2025-07-13 11:56:04,338 - quant_trading - INFO - 实盘配置加载成功
+2025-07-13 11:56:04,339 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-13 11:56:04,339 - quant_trading.live_engine - INFO - 实盘交易引擎初始化完成
+2025-07-13 11:56:04,525 - quant_trading.monitor - INFO - 实时监控初始化完成
+2025-07-13 11:56:04,525 - quant_trading.live_engine - INFO - 启动实盘交易...
+2025-07-13 11:56:04,525 - quant_trading.monitor - INFO - 启动实时监控...
+2025-07-13 11:56:04,525 - quant_trading.monitor - INFO - 启动数据收集线程...
+2025-07-13 11:56:05,490 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 11:56:05,570 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 65
+2025-07-13 11:56:05,570 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 11:56:05,572 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 11:56:05,572 - quant_trading.macd_strategy - INFO - 发现 3 个买入信号
+2025-07-13 11:56:05,572 - quant_trading.macd_strategy - INFO - 发现 3 个卖出信号
+2025-07-13 11:56:05,573 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 11:56:05,646 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:00:04,561 - quant_trading - INFO - 启动币安模拟盘交易
+2025-07-13 12:00:04,563 - quant_trading - INFO - 实盘配置加载成功
+2025-07-13 12:00:04,563 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-13 12:00:04,563 - quant_trading.live_engine - INFO - 实盘交易引擎初始化完成
+2025-07-13 12:00:04,758 - quant_trading.monitor - INFO - 实时监控初始化完成
+2025-07-13 12:00:04,758 - quant_trading.live_engine - INFO - 启动实盘交易...
+2025-07-13 12:00:04,758 - quant_trading.monitor - INFO - 启动实时监控...
+2025-07-13 12:00:04,759 - quant_trading.monitor - INFO - 启动数据收集线程...
+2025-07-13 12:00:05,709 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:00:06,474 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:00:06,474 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:00:06,475 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:00:06,475 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 12:00:06,475 - quant_trading.macd_strategy - INFO - 发现 7 个卖出信号
+2025-07-13 12:00:06,475 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:00:07,162 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:01:08,591 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:01:00
+2025-07-13 12:01:08,592 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:01:08,592 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:01:08,594 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:01:08,595 - quant_trading.macd_strategy - INFO - 发现 7 个买入信号
+2025-07-13 12:01:08,595 - quant_trading.macd_strategy - INFO - 发现 6 个卖出信号
+2025-07-13 12:01:08,595 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:01:10,063 - quant_trading.order_manager - ERROR - 订单执行失败: 401 Client Error: Unauthorized for url: https://testnet.binance.vision/api/v3/order/test?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.0849128683583914&timestamp=1752379269345&signature=673a155349d1d6906361f811a76f80b48977ed4239bf36fe5e9d5fcc8bc176db
+2025-07-13 12:01:10,744 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:02:12,382 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:02:00
+2025-07-13 12:02:12,383 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:02:12,383 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:02:12,385 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:02:12,386 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 12:02:12,387 - quant_trading.macd_strategy - INFO - 发现 6 个卖出信号
+2025-07-13 12:02:12,387 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:02:13,064 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:03:14,445 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:03:00
+2025-07-13 12:03:14,447 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:03:14,447 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:03:14,448 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:03:14,449 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 12:03:14,450 - quant_trading.macd_strategy - INFO - 发现 6 个卖出信号
+2025-07-13 12:03:14,450 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:03:15,119 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:04:16,233 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:04:00
+2025-07-13 12:04:16,235 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:04:16,235 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:04:16,237 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:04:16,238 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 12:04:16,238 - quant_trading.macd_strategy - INFO - 发现 6 个卖出信号
+2025-07-13 12:04:16,238 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:04:16,923 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:05:18,282 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:05:00
+2025-07-13 12:05:18,284 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:05:18,284 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:05:18,287 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:05:18,288 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 12:05:18,288 - quant_trading.macd_strategy - INFO - 发现 6 个卖出信号
+2025-07-13 12:05:18,289 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:05:18,966 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:06:20,046 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:06:00
+2025-07-13 12:06:20,048 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:06:20,048 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:06:20,050 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:06:20,051 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 12:06:20,052 - quant_trading.macd_strategy - INFO - 发现 6 个卖出信号
+2025-07-13 12:06:20,052 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:06:20,430 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:07:21,935 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:07:00
+2025-07-13 12:07:21,937 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:07:21,937 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:07:21,939 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:07:21,939 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:07:21,940 - quant_trading.macd_strategy - INFO - 发现 6 个卖出信号
+2025-07-13 12:07:21,940 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:07:22,602 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:08:23,538 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:08:00
+2025-07-13 12:08:23,540 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:08:23,540 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:08:23,541 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:08:23,542 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:08:23,543 - quant_trading.macd_strategy - INFO - 发现 6 个卖出信号
+2025-07-13 12:08:23,543 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:08:23,932 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:09:25,365 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:09:00
+2025-07-13 12:09:25,366 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:09:25,366 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:09:25,367 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:09:25,368 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:09:25,368 - quant_trading.macd_strategy - INFO - 发现 6 个卖出信号
+2025-07-13 12:09:25,368 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:09:25,753 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:10:27,596 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:10:00
+2025-07-13 12:10:27,599 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:10:27,599 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:10:27,600 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:10:27,601 - quant_trading.macd_strategy - INFO - 发现 4 个买入信号
+2025-07-13 12:10:27,602 - quant_trading.macd_strategy - INFO - 发现 4 个卖出信号
+2025-07-13 12:10:27,602 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:10:27,989 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:10:46,891 - quant_trading.monitor - INFO - 停止实时监控...
+2025-07-13 12:10:46,891 - quant_trading - ERROR - 交易引擎启动失败: 'NoneType' object has no attribute 'stop'
+2025-07-13 12:11:27,360 - quant_trading - INFO - 启动币安模拟盘交易
+2025-07-13 12:11:27,363 - quant_trading - INFO - 实盘配置加载成功
+2025-07-13 12:11:27,363 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-13 12:11:27,363 - quant_trading.live_engine - INFO - 实盘交易引擎初始化完成
+2025-07-13 12:11:27,564 - quant_trading.monitor - INFO - 实时监控初始化完成
+2025-07-13 12:11:27,564 - quant_trading.live_engine - INFO - 启动实盘交易...
+2025-07-13 12:11:27,564 - quant_trading.monitor - INFO - 启动实时监控...
+2025-07-13 12:11:27,564 - quant_trading.monitor - INFO - 启动数据收集线程...
+2025-07-13 12:11:27,790 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:11:27,871 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:11:27,871 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:11:27,872 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:11:27,873 - quant_trading.macd_strategy - INFO - 发现 4 个买入信号
+2025-07-13 12:11:27,873 - quant_trading.macd_strategy - INFO - 发现 4 个卖出信号
+2025-07-13 12:11:27,873 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:11:28,048 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:12:28,256 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:12:00
+2025-07-13 12:12:28,257 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:12:28,257 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:12:28,257 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:12:28,257 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:12:28,258 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 12:12:28,258 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:12:28,344 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:13:28,691 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:13:00
+2025-07-13 12:13:28,692 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:13:28,693 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:13:28,694 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:13:28,694 - quant_trading.macd_strategy - INFO - 发现 4 个买入信号
+2025-07-13 12:13:28,695 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 12:13:28,695 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:13:28,769 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:14:29,037 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:14:00
+2025-07-13 12:14:29,037 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:14:29,037 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:14:29,038 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:14:29,039 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:14:29,039 - quant_trading.macd_strategy - INFO - 发现 4 个卖出信号
+2025-07-13 12:14:29,039 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:14:29,415 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:15:30,041 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:15:00
+2025-07-13 12:15:30,042 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:15:30,042 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:15:30,042 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:15:30,043 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:15:30,043 - quant_trading.macd_strategy - INFO - 发现 4 个卖出信号
+2025-07-13 12:15:30,043 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:15:30,128 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:16:30,511 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:16:00
+2025-07-13 12:16:30,512 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:16:30,512 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:16:30,513 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:16:30,513 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 12:16:30,513 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 12:16:30,513 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:16:30,588 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:17:31,496 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:17:00
+2025-07-13 12:17:31,497 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:17:31,497 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:17:31,498 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:17:31,499 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:17:31,499 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 12:17:31,500 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:17:31,578 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:18:32,853 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:18:00
+2025-07-13 12:18:32,853 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:18:32,853 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:18:32,855 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:18:32,855 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:18:32,856 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 12:18:32,856 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:18:32,932 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:19:33,175 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:19:00
+2025-07-13 12:19:33,176 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:19:33,177 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:19:33,178 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:19:33,179 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:19:33,180 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 12:19:33,180 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:19:33,257 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:20:33,490 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:20:00
+2025-07-13 12:20:33,491 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:20:33,491 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:20:33,493 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:20:33,494 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:20:33,495 - quant_trading.macd_strategy - INFO - 发现 4 个卖出信号
+2025-07-13 12:20:33,495 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:20:33,588 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:21:04,099 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:21:00
+2025-07-13 12:21:04,099 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:21:04,099 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:21:04,100 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:21:04,101 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:21:04,102 - quant_trading.macd_strategy - INFO - 发现 4 个卖出信号
+2025-07-13 12:21:04,102 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:21:04,234 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:22:34,725 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:22:00
+2025-07-13 12:22:34,726 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:22:34,726 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:22:34,727 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:22:34,728 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:22:34,728 - quant_trading.macd_strategy - INFO - 发现 4 个卖出信号
+2025-07-13 12:22:34,729 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:22:34,862 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:23:05,046 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:23:00
+2025-07-13 12:23:05,046 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:23:05,046 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:23:05,047 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:23:05,048 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:23:05,049 - quant_trading.macd_strategy - INFO - 发现 4 个卖出信号
+2025-07-13 12:23:05,049 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:23:05,188 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:24:05,496 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:24:00
+2025-07-13 12:24:05,497 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:24:05,497 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:24:05,498 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:24:05,499 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:24:05,499 - quant_trading.macd_strategy - INFO - 发现 4 个卖出信号
+2025-07-13 12:24:05,499 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:24:05,630 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:25:05,958 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:25:00
+2025-07-13 12:25:05,958 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:25:05,959 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:25:05,960 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:25:05,961 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 12:25:05,961 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 12:25:05,961 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:25:06,325 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:26:06,974 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:26:00
+2025-07-13 12:26:06,975 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:26:06,975 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:26:06,976 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:26:06,977 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 12:26:06,978 - quant_trading.macd_strategy - INFO - 发现 6 个卖出信号
+2025-07-13 12:26:06,978 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:26:07,109 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:27:07,458 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:27:00
+2025-07-13 12:27:07,459 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:27:07,459 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:27:07,460 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:27:07,460 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 12:27:07,460 - quant_trading.macd_strategy - INFO - 发现 6 个卖出信号
+2025-07-13 12:27:07,460 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:27:07,813 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:37:13,674 - quant_trading - INFO - 启动币安模拟盘交易
+2025-07-13 12:37:13,677 - quant_trading - INFO - 实盘配置加载成功
+2025-07-13 12:37:13,677 - quant_trading.macd_strategy - INFO - MACD策略初始化: 快线周期=12, 慢线周期=26, 信号周期=9
+2025-07-13 12:37:13,678 - quant_trading.live_engine - INFO - 实盘交易引擎初始化完成
+2025-07-13 12:37:13,898 - quant_trading.monitor - INFO - 实时监控初始化完成
+2025-07-13 12:37:13,898 - quant_trading.live_engine - INFO - 启动实盘交易...
+2025-07-13 12:37:13,898 - quant_trading.monitor - INFO - 启动实时监控...
+2025-07-13 12:37:13,898 - quant_trading.monitor - INFO - 启动数据收集线程...
+2025-07-13 12:37:15,028 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:37:15,939 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:37:15,939 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:37:15,940 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:37:15,941 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 12:37:15,941 - quant_trading.macd_strategy - INFO - 发现 6 个卖出信号
+2025-07-13 12:37:15,941 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:37:16,607 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:38:18,063 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:38:00
+2025-07-13 12:38:18,064 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:38:18,064 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:38:18,065 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:38:18,066 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 12:38:18,066 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 12:38:18,067 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:38:18,446 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:39:19,914 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:39:00
+2025-07-13 12:39:19,915 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:39:19,915 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:39:19,917 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:39:19,918 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:39:19,918 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 12:39:19,918 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:39:20,775 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:40:21,949 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:40:00
+2025-07-13 12:40:21,952 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:40:21,952 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:40:21,953 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:40:21,954 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:40:21,955 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 12:40:21,955 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:40:22,319 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:41:23,156 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:41:00
+2025-07-13 12:41:23,158 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:41:23,158 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:41:23,160 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:41:23,161 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:41:23,162 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 12:41:23,162 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:41:24,067 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:42:25,414 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:42:00
+2025-07-13 12:42:25,416 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:42:25,416 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:42:25,418 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:42:25,419 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 12:42:25,419 - quant_trading.macd_strategy - INFO - 发现 6 个卖出信号
+2025-07-13 12:42:25,419 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:42:26,160 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:43:27,649 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:43:00
+2025-07-13 12:43:27,675 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:43:27,675 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:43:27,675 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:43:27,676 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 12:43:27,676 - quant_trading.macd_strategy - INFO - 发现 6 个卖出信号
+2025-07-13 12:43:27,676 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:43:27,852 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:44:28,182 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:44:00
+2025-07-13 12:44:28,184 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:44:28,184 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:44:28,185 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:44:28,186 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 12:44:28,187 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 12:44:28,187 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:44:28,273 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:45:28,731 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:45:00
+2025-07-13 12:45:28,733 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:45:28,733 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:45:28,735 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:45:28,736 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:45:28,736 - quant_trading.macd_strategy - INFO - 发现 6 个卖出信号
+2025-07-13 12:45:28,736 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:45:28,928 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:46:29,222 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:46:00
+2025-07-13 12:46:29,225 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:46:29,225 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:46:29,227 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:46:29,228 - quant_trading.macd_strategy - INFO - 发现 7 个买入信号
+2025-07-13 12:46:29,228 - quant_trading.macd_strategy - INFO - 发现 7 个卖出信号
+2025-07-13 12:46:29,228 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:46:29,407 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:47:30,905 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:47:00
+2025-07-13 12:47:30,906 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:47:30,906 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:47:30,907 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:47:30,908 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 12:47:30,909 - quant_trading.macd_strategy - INFO - 发现 7 个卖出信号
+2025-07-13 12:47:30,909 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:47:31,377 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:48:33,438 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:48:00
+2025-07-13 12:48:33,440 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:48:33,440 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:48:33,441 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:48:33,442 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 12:48:33,442 - quant_trading.macd_strategy - INFO - 发现 7 个卖出信号
+2025-07-13 12:48:33,442 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:48:33,842 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:49:36,007 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:49:00
+2025-07-13 12:49:36,009 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:49:36,009 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:49:36,010 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:49:36,011 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:49:36,012 - quant_trading.macd_strategy - INFO - 发现 6 个卖出信号
+2025-07-13 12:49:36,012 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:49:36,410 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:50:06,846 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:50:00
+2025-07-13 12:50:06,847 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:50:06,847 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:50:06,848 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:50:06,848 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 12:50:06,848 - quant_trading.macd_strategy - INFO - 发现 6 个卖出信号
+2025-07-13 12:50:06,848 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:50:07,335 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:51:07,882 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:51:00
+2025-07-13 12:51:07,883 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:51:07,883 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:51:07,885 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:51:07,886 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 12:51:07,886 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 12:51:07,886 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:51:07,964 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:52:08,977 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:52:00
+2025-07-13 12:52:08,978 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:52:08,978 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:52:08,980 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:52:08,981 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 12:52:08,981 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 12:52:08,981 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:52:09,397 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:53:09,819 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:53:00
+2025-07-13 12:53:09,820 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:53:09,820 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:53:09,821 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:53:09,822 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 12:53:09,823 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 12:53:09,823 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:53:09,900 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:54:10,646 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:54:00
+2025-07-13 12:54:10,646 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:54:10,646 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:54:10,648 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:54:10,648 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 12:54:10,649 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 12:54:10,649 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:54:11,051 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:55:12,005 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:55:00
+2025-07-13 12:55:12,006 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:55:12,006 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:55:12,008 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:55:12,009 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:55:12,009 - quant_trading.macd_strategy - INFO - 发现 4 个卖出信号
+2025-07-13 12:55:12,009 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:55:12,697 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:56:13,205 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:56:00
+2025-07-13 12:56:13,205 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:56:13,206 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:56:13,207 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:56:13,208 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:56:13,209 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 12:56:13,209 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:56:13,288 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:57:13,944 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:57:00
+2025-07-13 12:57:13,945 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:57:13,945 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:57:13,946 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:57:13,947 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:57:13,948 - quant_trading.macd_strategy - INFO - 发现 4 个卖出信号
+2025-07-13 12:57:13,948 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:57:14,123 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:58:14,385 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:58:00
+2025-07-13 12:58:14,386 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:58:14,386 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:58:14,387 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:58:14,388 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:58:14,388 - quant_trading.macd_strategy - INFO - 发现 4 个卖出信号
+2025-07-13 12:58:14,388 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:58:14,466 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 12:59:14,700 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 04:59:00
+2025-07-13 12:59:14,702 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 12:59:14,702 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 12:59:14,703 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 12:59:14,704 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 12:59:14,704 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 12:59:14,705 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 12:59:16,086 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 13:00:16,409 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 05:00:00
+2025-07-13 13:00:16,410 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 13:00:16,411 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 13:00:16,412 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 13:00:16,413 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 13:00:16,413 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 13:00:16,413 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 13:00:16,588 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 13:01:17,268 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 05:01:00
+2025-07-13 13:01:17,270 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 13:01:17,270 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 13:01:17,272 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 13:01:17,273 - quant_trading.macd_strategy - INFO - 发现 6 个买入信号
+2025-07-13 13:01:17,273 - quant_trading.macd_strategy - INFO - 发现 6 个卖出信号
+2025-07-13 13:01:17,273 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 13:01:18,170 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 13:02:18,756 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 05:02:00
+2025-07-13 13:02:18,758 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 13:02:18,758 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 13:02:18,760 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 13:02:18,761 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 13:02:18,762 - quant_trading.macd_strategy - INFO - 发现 6 个卖出信号
+2025-07-13 13:02:18,762 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 13:02:18,843 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 13:03:19,317 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 05:03:00
+2025-07-13 13:03:19,320 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 13:03:19,320 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 13:03:19,321 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 13:03:19,322 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 13:03:19,323 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 13:03:19,323 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 13:03:19,403 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 13:04:20,098 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 05:04:00
+2025-07-13 13:04:20,101 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 13:04:20,101 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 13:04:20,103 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 13:04:20,103 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 13:04:20,104 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 13:04:20,104 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 13:04:20,192 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 13:05:20,495 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 05:05:00
+2025-07-13 13:05:20,497 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 13:05:20,497 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 13:05:20,498 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 13:05:20,499 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 13:05:20,500 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 13:05:20,500 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 13:05:20,581 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 13:06:20,878 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 05:06:00
+2025-07-13 13:06:20,880 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 13:06:20,880 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 13:06:20,881 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 13:06:20,882 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 13:06:20,883 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 13:06:20,883 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 13:06:20,962 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 13:07:21,208 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 05:07:00
+2025-07-13 13:07:21,211 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 13:07:21,211 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 13:07:21,212 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 13:07:21,213 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 13:07:21,213 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 13:07:21,213 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 13:07:21,296 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 13:08:21,573 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 05:08:00
+2025-07-13 13:08:21,574 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 13:08:21,574 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 13:08:21,576 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 13:08:21,577 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 13:08:21,577 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 13:08:21,577 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 13:08:22,317 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 13:09:22,668 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 05:09:00
+2025-07-13 13:09:22,670 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 13:09:22,670 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 13:09:22,672 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 13:09:22,672 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 13:09:22,673 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 13:09:22,673 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 13:09:22,753 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 13:10:23,052 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 05:10:00
+2025-07-13 13:10:23,052 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 13:10:23,053 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 13:10:23,054 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 13:10:23,055 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 13:10:23,055 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 13:10:23,056 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 13:10:23,136 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 13:11:23,420 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 05:11:00
+2025-07-13 13:11:23,422 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 13:11:23,422 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 13:11:23,424 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 13:11:23,424 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 13:11:23,425 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 13:11:23,425 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 13:11:23,504 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 13:12:23,908 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 05:12:00
+2025-07-13 13:12:23,910 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 13:12:23,910 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 13:12:23,912 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 13:12:23,912 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 13:12:23,913 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 13:12:23,913 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 13:12:23,993 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 13:13:24,368 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 05:13:00
+2025-07-13 13:13:24,370 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 13:13:24,370 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 13:13:24,372 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 13:13:24,373 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 13:13:24,374 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 13:13:24,374 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 13:13:24,458 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 13:14:26,055 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 05:14:00
+2025-07-13 13:14:26,057 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 13:14:26,057 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 13:14:26,059 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 13:14:26,060 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 13:14:26,061 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 13:14:26,061 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 13:14:26,140 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 13:15:26,470 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 05:15:00
+2025-07-13 13:15:26,471 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 13:15:26,471 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 13:15:26,473 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 13:15:26,473 - quant_trading.macd_strategy - INFO - 发现 5 个买入信号
+2025-07-13 13:15:26,474 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 13:15:26,474 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 13:15:26,554 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%
+2025-07-13 13:16:27,286 - quant_trading.live_engine - INFO - 新K线数据: 2025-07-13 05:16:00
+2025-07-13 13:16:27,287 - quant_trading.strategy_base - INFO - 策略 MACD 4小时策略 数据已设置，行数: 100
+2025-07-13 13:16:27,287 - quant_trading.macd_strategy - INFO - 开始生成MACD交易信号...
+2025-07-13 13:16:27,288 - quant_trading.macd_strategy - DEBUG - MACD指标计算完成
+2025-07-13 13:16:27,289 - quant_trading.macd_strategy - INFO - 发现 4 个买入信号
+2025-07-13 13:16:27,289 - quant_trading.macd_strategy - INFO - 发现 5 个卖出信号
+2025-07-13 13:16:27,290 - quant_trading.macd_strategy - INFO - 交易信号生成完成
+2025-07-13 13:16:27,368 - quant_trading.live_engine - INFO - 账户监控: 现金=10000.00 | 仓位=0.000000 | 仓位价值=0.00 | 总资产=10000.00 | 仓位占比=0.00%

@@ -1,0 +1,19 @@
+# 币安API配置
+binance:
+  symbol: "BTCUSDT"
+  timeframe: "1m"      # 4小时K线
+  testnet: true        # 使用测试网络
+  api_key: "key"
+  api_secret: "secret"
+
+# 策略参数（与回测共享）
+strategy:
+  parameters:
+    fast_period: 12
+    slow_period: 26
+    signal_period: 9
+    trade_amount: 0.1   # BTC交易量
+
+# 回测参数（实盘不使用，但保留结构）
+backtest:
+  initial_capital: 10000.0
